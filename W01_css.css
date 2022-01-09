@@ -1,0 +1,28 @@
+h1 {
+	color:  white;
+	text-align:  center;
+}
+h2 {
+	text-align:  center;
+}
+h5 {
+	text-align:  center;
+}
+
+.container {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 2fr;
+	color: white;
+	background-color: 517AD8;
+	Padding: 50px ;
+	margin: 50px;
+}
+
+.boxmodel {
+	Padding: 10px ;
+	background-color: 517AD8;
+	margin: 50px;
+	text-align: center;
+	color: white;
+}
