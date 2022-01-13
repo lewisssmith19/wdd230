@@ -7,4 +7,23 @@
         font-size: 1.5rem;
         font-family: "Audiowide", sans-serif; 
     }
+    .container {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 2fr;
+        color: white;
+        background-color: #517AD8;
+        Padding: 50px ;
+        margin: 50px;
+        float: right;
+    }
+    
+    .boxmodel {
+        Padding: 10px ;
+        background-color: #517AD8;
+        margin: 50px;
+        text-align: center;
+        color: white;
+    }
+        
 }
