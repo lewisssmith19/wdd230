@@ -1,8 +1,8 @@
 function date_ddmmmyy(date)
 {
-  var d = date.getDate();
-  var m = date.getMonth() + 1;
-  var y = date.getYear();
+  let d = date.getDate();
+  let m = date.getMonth() + 1;
+  let y = date.getYear();
   if(y >= 2000)
   {
     y -= 2000;
@@ -12,7 +12,7 @@ function date_ddmmmyy(date)
   {
     y -= 100;
   }
-  var mmm = 
+  let mmm = 
     ( 1==m)?'Jan':( 2==m)?'Feb':(3==m)?'Mar':
     ( 4==m)?'Apr':( 5==m)?'May':(6==m)?'Jun':
     ( 7==m)?'Jul':( 8==m)?'Aug':(9==m)?'Sep':
@@ -26,9 +26,9 @@ function date_ddmmmyy(date)
 
 function date_lastmodified()
 {
-  var lmd = document.lastModified;
-  var s   = "Unknown";
-  var d1;
+  let lmd = document.lastModified;
+  let s   = "Unknown";
+  let d1;
 
   if(0 != (d1=Date.parse(lmd)))
   {

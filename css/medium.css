@@ -16,6 +16,8 @@
     }
     header img {
         width: 220px;
+        height: auto;
+        padding: 1em;
     }
     h1 {
         font-size: 2.5rem;
