@@ -45,16 +45,21 @@ footer {
     margin: 50px;
 	text-align: center;
 }
-
+main section {
+	margin: 0.5em;
+	border: 1px solid #3B5B3B;
+	padding: 1 1rem;
+	background-color: #eee;
+}
 
 
 /* small view */
 section {
-	max-width: 767px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+	margin: 0.5em;
+	border: 1px solid #3B5B3B;
+	padding: 1 1rem;
+	background-color: #eee;
+	align-items: center;
 }
 
 section h2 {
