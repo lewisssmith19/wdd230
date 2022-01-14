@@ -1,6 +1,11 @@
 body {
-    font-size: 16px;
+    display: grid;
+	font-size: 16px;
     font-family: 'Dongle', sans-serif;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
 }
 header {
     color: #999;
@@ -81,7 +86,8 @@ section:nth-child(2) {
 
 /* medium view */
 @media only screen and (min-width: 37.5em) {
-	section {
+	.grid {
+		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 
@@ -108,7 +114,8 @@ section:nth-child(2) {
 
 /* large view */
 @media only screen and (min-width: 60em) {
-	section {
+	.grid {
+		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
