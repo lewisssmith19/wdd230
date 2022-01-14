@@ -78,10 +78,6 @@ section {
 	background-color: #eee;
 }
 
-section:nth-child(2) {
-	display: none;
-	margin: 0.5rem;
-}
 
 
 /* medium view */
