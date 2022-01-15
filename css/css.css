@@ -1,5 +1,4 @@
 body {
-    display: grid;
 	font-size: 16px;
     font-family: 'Dongle', sans-serif;
 }
@@ -66,7 +65,9 @@ section {
 	background-color: #eee;
 	align-items: center;
 }
-
+img {
+	width: 100%;
+}
 section h2 {
 	color: #536878;
 }
@@ -86,7 +87,9 @@ section {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
-
+	#hicks_law {
+		grid-column: 1/3;
+	}
 	section:nth-child(2) {
 		display: block;
 	}
@@ -112,9 +115,11 @@ section {
 @media only screen and (min-width: 60em) {
 	.grid {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 33% 33% 33%;
 	}
-
+	#hicks_law {
+		grid-column: unset;
+	}
 	section:nth-child(3) {
 		grid-column: span 1;
 	}
