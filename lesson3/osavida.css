@@ -1,0 +1,36 @@
+header {
+    background-color: #2594EB;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+footer{
+	background-color: #2594EB;
+	border-radius: 15px;
+	margin-top: 25px;
+    color: #F1AE65;
+    font-family: 'Varela Round', sans-serif;
+}
+img {
+    max-width: 350px;
+}
+a:hover {
+    color: #F1AE65;
+  }
+a {
+    color: black;
+}
+h1 {
+    font-family: 'Varela Round', sans-serif;
+}
+h2 {
+    font-family: 'Varela Round', sans-serif;
+}
+h3 {
+    font-family: 'Varela Round', sans-serif;
+}
+p {
+    font-family: 'Varela Round', sans-serif;
+}
