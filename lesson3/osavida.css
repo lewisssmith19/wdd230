@@ -39,3 +39,29 @@ h3 {
 p {
     font-family: 'Varela Round', sans-serif;
 }
+.box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+  }
+  
+  .white {
+    background: #fff;
+  }
+  
+  .blue {
+    background: #2594EB;
+  }
+  
+  .orange {
+    background: #F1AE65;
+  }
+  
+  .black {
+    background: #1C1128;
+  }
+
+  .blue2 {
+    background: #3079C5;
+  }
