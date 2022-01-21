@@ -1,49 +1,65 @@
+@import "compass/css3";
+
+.flex-container {
+  padding: 5px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap; 
+  justify-content: space-around;
+}
+
 header {
-    background-color: #2594EB;
-    border-radius: 15px;
-    padding: 1.5em;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: black;
+  background-color: #2594EB;
+  border-radius: 15px;
+  padding: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+  display: flex;
 }
 footer{
 	background-color: #2594EB;
 	border-radius: 15px;
 	margin-top: 25px;
-    color: black;
-    padding: 1em;
-    font-family: 'Varela Round', sans-serif;
+  color: black;
+  padding: 1em;
+  font-family: 'Varela Round', sans-serif;
 }
 img {
-    width: 350px;
+  width: 350px;
 	height: auto;
 	padding: 1em;
 }
 a:hover {
-    color: #F1AE65;
+  color: #F1AE65;
   }
 a {
-    color: black;
+  color: black;
 }
 h1 {
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  align-items: center;
 }
 h2 {
-    font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 h3 {
-    font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 p {
-    font-family: 'Varela Round', sans-serif;
+  font-family: 'Varela Round', sans-serif;
 }
 .box {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 1px solid rgba(0, 0, 0, .2);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, .2);
   }
   
   .white {
