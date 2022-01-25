@@ -3,7 +3,7 @@
 nav {
 	margin: 0 auto;
 	max-width: 760px;
-	background-color: tomato;
+	background-color: #F1AE65;
 }
 .navigation {
 	list-style: none;
@@ -26,13 +26,8 @@ nav {
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
-.navigation a.ham::before {
-	content: "🍔 ";
-}
-
 .navigation a:hover {
-	color: white;
-	background-color: black;
+	color: #F1AE65;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
