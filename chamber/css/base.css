@@ -19,9 +19,16 @@ footer {
     font-family: "Audiowide", sans-serif;
 }
 /* Small/Phone View ***************/
+section {
+	margin: 0.5em;
+	border: 1px solid #224722;
+	padding:  1rem;
+	background-color: #eee;
+	align-items: center;
+}
 nav {
 	margin: 0 auto;
-	max-width: 760px;
+	max-width: 50px;
 	background-color: skyblue;
     font-family: "Audiowide", sans-serif;
     border-radius: 600px;
@@ -83,6 +90,9 @@ nav {
 	.navigation li:first-child {
 		display: none;
 	}
+    nav {
+        max-width: 760px;
+    }
     
 }
 /* large view */
