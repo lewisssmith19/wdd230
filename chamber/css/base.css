@@ -24,6 +24,7 @@ nav {
 	max-width: 760px;
 	background-color: skyblue;
     font-family: "Audiowide", sans-serif;
+    border-radius: 600px;
 }
 .navigation {
 	list-style: none;
@@ -53,6 +54,7 @@ nav {
 .navigation a:hover {
 	color: white;
 	background-color: black;
+    border-radius: 600px;
 }
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
@@ -97,6 +99,7 @@ nav {
 	}
 	.navigation li:first-child {
 		display: none;
+
 	}
     
 
