@@ -1,30 +1,65 @@
-/* a {
-    color: black;
-}
-a:hover {
-    color: #aaa;
+/* Media Query for medium+ views */
+@media only screen and (min-width: 37.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+    nav {
+        max-width: 400px;
     }
-h1 {
-    color: black;
-    font-family: 'Dongle', sans-serif;
+    
+	section {
+		margin: 0.5em;
+		border: 1px solid #3079C5;
+		padding:  1rem;
+		background-color: #eee;
+		align-items: center;
+	}
+	.navigation {
+		list-style: none;
+		padding: 0;
+	}
+	.navigation li:first-child {
+		display: block;
+	}
+	.navigation li {
+		display: none;
+	}
+	.navigation a {
+		display: block;
+		padding: 0.75rem;
+		text-align: left;
+		text-decoration: none;
+		color: black;
+		font-weight: 700;
+		transition: 0.5s;
+		font-size: clamp(1rem, 2vmin, 1.5rem);
+	}
+	
+	.navigation a.ham::before {
+		content: "=";
+	}
+	
+	.navigation a:hover {
+		color: white;
+		background-color: black;
+		border-radius: 600px;
+	}
+	
+	.responsive li {
+		display: block;
+	}
+	
+	.responsive a.ham::before {
+		content: "❌ ";
+	}
 }
-h3 {
-    color: black;
-    font-family: 'Dongle', sans-serif;
-}  */
-/* body {
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: 2em;
-	font-family: hebrew;
-	color: navy;
-}
-date, aside {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem;
-	background-color: #eee;
-} */
