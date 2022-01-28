@@ -20,13 +20,7 @@ footer {
     font-family: 'Varela Round', sans-serif;
 }
 /* Small/Phone View ***************/
-section {
-	margin: 0.5em;
-	border: 1px solid #3079C5;
-	padding:  1rem;
-	background-color: #eee;
-	align-items: center;
-}
+
 nav {
 	margin: 0 auto;
 	max-width: 50px;
@@ -64,7 +58,13 @@ nav {
 	background-color: black;
     border-radius: 600px;
 }
-
+section {
+    margin: .2em;
+    border: 1px solid #3079C5;
+    padding:  5rem;
+    background-color: #eee;
+    border-radius: 600px;
+}
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
