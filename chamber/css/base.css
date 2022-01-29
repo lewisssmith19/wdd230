@@ -5,6 +5,9 @@ img {
     border-radius: 600px;
     margin: 3px;
 }
+.social {
+    align-items: right;
+}
 h1, h2, h3 {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
