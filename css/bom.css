@@ -32,10 +32,12 @@ button {
 	padding: 0.35rem;
 	margin-left: 1rem;
 	font-size: 1.1rem;
+    border-radius: 100px;
 }
 
 input {
 	width: 200px;
+    border-radius: 100px;
 }
 
 label {
