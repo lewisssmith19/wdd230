@@ -1,9 +1,10 @@
 img {
-    padding: 50px;
-    width: 250px;
+    padding: 15px;
+    width: 150px;
     height: auto;
     border-radius: 600px;
     margin: 3px;
+    background-color: #F1AE65;
 }
 .social {
     align-items: right;
@@ -16,6 +17,7 @@ header {
     background-color: #2594EB;
     border-radius: 600px;
     font-family: 'Roboto', sans-serif;
+    align-items: center;
 }
 footer {
     background-color: #2594EB;
