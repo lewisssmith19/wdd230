@@ -3,7 +3,7 @@ img {
     width: 150px;
     height: auto;
     border-radius: 600px;
-    margin: 3px;
+    margin: auto;
     background-color: #F1AE65;
 }
 .social {
@@ -82,43 +82,3 @@ section {
 .responsive a.ham::before {
 	content: "❌ ";
 }
-
-/* Media Query for medium+ views */
-/* @media only screen and (min-width: 37.5em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		/* flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
-    nav {
-        max-width: 760px;
-    }
-    
-} */
-/* large view */
-/* @media only screen and (min-width: 60em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; 
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-
-	}
-    
-
-} */
