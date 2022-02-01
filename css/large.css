@@ -12,7 +12,7 @@
 	}
 	.navigation li:first-child {
 		display: none;
-
+		padding-bottom: 50px;
 	}
     nav {
         max-width: 720px;
@@ -39,7 +39,7 @@
 		grid-template-rows: repeat(3, 1fr);
 		border-radius: 600px;
 		text-align: center;
-		margin: 50px;
+		margin: 10px;
 	  }
 	.sitename {
 		grid-column: 2/4;
