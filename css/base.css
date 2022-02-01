@@ -2,18 +2,25 @@ img {
     padding: 15px;
     height: auto;
     border-radius: 300px;
-    margin: auto;
     background-color: #F1AE65;
     align-content: center;
+}
+.currentDate {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
 }
 .social img {
     align-items: right;
     align-content: right;
     width: 50px;
-    margin: auto;
     background-color: #F1AE65;
     border-radius: 300px;
     padding: 10px;
+}
+.social {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
 }
 h1, h2, h3, p{
     text-align: center;
@@ -25,6 +32,7 @@ header {
     font-family: 'Roboto', sans-serif;
     align-items: center;
     padding: 15px;
+    padding-top: 200px;
 }
 footer {
     background-color: #2594EB;
