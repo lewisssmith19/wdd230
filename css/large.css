@@ -1,7 +1,8 @@
 /* large view */
 @media only screen and (min-width: 60em) {
 	header {
-		padding-top: unset;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 	.navigation {
 		display: flex;
@@ -20,8 +21,15 @@
     nav {
         max-width: 720px;
     }
-	header>img {
-		left: 500px;
+	header > img {
+		padding: 20px;
+		margin-left: 150px;
+		margin-top: 50;
+	}
+	.social {
+		padding: 10px;
+		margin-right: 150px;
+		margin-top: 50px;
 	}
 	.grid {
 		display: grid;
@@ -35,7 +43,7 @@
 		margin: .2em;
 		border: 1px solid #3079C5;
 		padding:  5rem;
-		background-color: #eee;
+		background-color: #F1AE65;
 		border-radius: 600px;
 		text-align: center;
 	}
@@ -50,7 +58,9 @@
 	.sitename section{
 		  height: 98%;
 		  padding: .1rem;
+		  background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296"); 
 	  }
+	
 	.sitename {
 		grid-column: 2/4;
 		grid-row: 1/3;

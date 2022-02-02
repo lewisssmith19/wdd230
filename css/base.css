@@ -5,17 +5,65 @@ img {
     background-color: #F1AE65;
     align-content: center;
 }
+.sitename > img {
+    background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.newsrelease h2 {
+    background-color: #F1AE65;
+    border-radius: 300px;
+    color: #3079C5;
+}
+.sitename button {
+    background-color: #F1AE65;
+    border-radius: 300px;
+    border: #F1AE65;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.sitename button:hover {
+    background-color: black;
+    border-radius: 300px;
+    border: #F1AE65;
+    padding: 10px;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+}
+.join button {
+    background-color: #3079C5;
+    border-radius: 300px;
+    border: #3079C5;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+.join button:hover {
+    background-color: black;
+    border-radius: 300px;
+    border: black;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
 .currentDate {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
 }
-.social img {
+.social > img {
     align-items: right;
     align-content: right;
     width: 50px;
     background-color: #F1AE65;
     border-radius: 300px;
     padding: 10px;
+}
+header > img {
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 .social {
     display: flex;
@@ -32,7 +80,20 @@ header {
     font-family: 'Roboto', sans-serif;
     align-items: center;
     padding: 15px;
-    padding-top: 200px;
+    padding-top: 50px;
+}
+section {
+    margin: .2em;
+    border: 1px solid #3079C5;
+    padding:  5rem;
+    background-color: #F1AE65;
+    border-radius: 600px;
+    text-align: center;
+}
+.sitename section{
+    height: 98%;
+    padding: .1rem;
+    background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296"); 
 }
 footer {
     background-color: #2594EB;
@@ -42,7 +103,6 @@ footer {
     align-items: center;
 }
 /* Small/Phone View ***************/
-
 nav {
 	margin: 0 auto;
 	max-width: 50px;
@@ -78,13 +138,6 @@ nav {
 .navigation a:hover {
 	color: white;
 	background-color: black;
-    border-radius: 600px;
-}
-section {
-    margin: .2em;
-    border: 1px solid #3079C5;
-    padding:  5rem;
-    background-color: #eee;
     border-radius: 600px;
 }
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
