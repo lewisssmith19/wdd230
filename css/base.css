@@ -10,11 +10,6 @@ img {
     background-repeat: no-repeat;
     background-size: auto;
 }
-.newsrelease h2 {
-    background-color: #F1AE65;
-    border-radius: 300px;
-    color: #3079C5;
-}
 .sitename button {
     background-color: #F1AE65;
     border-radius: 300px;
@@ -49,7 +44,7 @@ img {
     color: white;
     cursor: pointer;
 }
-.event h2, h3 {
+.event h3 {
     background-color: #F1AE65;
     border-radius: 300px;
     color: #3079C5;
