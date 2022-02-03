@@ -34,7 +34,23 @@ button {
 	font-size: 1.1rem;
     border-radius: 100px;
 }
-
+button:hover{
+	padding: 0.35rem;
+	margin-left: 1rem;
+	font-size: 1.1rem;
+    border-radius: 100px;
+	background-color: coral;
+	color: cornsilk;
+}
+.listcontainer button {
+	color: crimson;
+	background-color: black;
+	margin-left: 350px;
+}
+.listcontainer button:hover {
+	color: black;
+	background-color: crimson;
+}
 input {
 	width: 200px;
     border-radius: 100px;
