@@ -115,6 +115,10 @@ footer h3 {
     color: black;
     background-color: #2594EB;
 }
+footer img {
+    margin-top: 20px;
+    margin-left: 50px;
+}
 /* Small/Phone View ***************/
 nav {
 	margin: 0 auto;
