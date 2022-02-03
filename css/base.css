@@ -21,8 +21,7 @@ img {
     border: #F1AE65;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
-    margin-left: 300px;
-    margin-top: 200px;
+    box-shadow: 2px 2px 4px #000000;
 }
 .sitename button:hover {
     background-color: black;
@@ -39,6 +38,7 @@ img {
     border: #3079C5;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
+    box-shadow: 2px 2px 4px #000000;
 }
 .join button:hover {
     background-color: black;
@@ -113,6 +113,12 @@ footer {
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
     align-items: center;
+}
+footer h3 {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+    background-color: #2594EB;
 }
 /* Small/Phone View ***************/
 nav {
