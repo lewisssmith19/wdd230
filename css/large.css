@@ -49,11 +49,10 @@
 	}
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(3, 1fr);
+		grid-template-rows: repeat(3, auto);
+		grid-template-rows: repeat(3, auto);
 		border-radius: 600px;
 		text-align: center;
-		margin: 10px;
 	  }
 	.sitename {
 		  height: 98%;

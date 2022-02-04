@@ -96,6 +96,7 @@ section {
     background-color: #F1AE65;
     border-radius: 600px;
     text-align: center;
+    box-shadow: 2px 2px 4px #000000;
 }
 .sitename section{
     height: 98%;

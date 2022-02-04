@@ -1,16 +1,14 @@
-const favchap = document.querySelector('#favchap');
-const submit = document.querySelector('button');
-const list = document.querySelector('#list');
-
-buildButton.addEventListner('click', () => {
-    
-    let size = Number(listner.value);
+const input = document.querySelector('#favchap');
+const buildButton = document.getElementById('add');
+const list = document.querySelector('.list');
+console.log(input)
+buildButton.addEventListener('click', function() {
     
     
-    for (let i = 1; i <= size; i++) {
         let li = document.createElement('li');
-        li.innerhtml = `item: <strong>${i}</strong>`;
+        li.innerHTML = `item: <strong>${input.value}</strong>`;
         list.appendChild(li);
-    }
     
+
 }); 
+
