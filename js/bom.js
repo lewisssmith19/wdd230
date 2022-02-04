@@ -12,4 +12,4 @@ buildButton.addEventListener('click', function() {
 
 }); 
 
-const clear = document.querySelector('delete');
+const clear = document.appendChild('delete');
