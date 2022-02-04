@@ -54,8 +54,6 @@ img {
     font-family: 'Varela Round', sans-serif;
 }
 .social > img {
-    align-items: right;
-    align-content: right;
     width: 50px;
     background-color: #F1AE65;
     border-radius: 300px;
@@ -81,11 +79,19 @@ h1, h2, h3, h4, p {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
 }
+a {
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+a:hover {
+    color: #F1AE65;
+}
 header {
     background-color: #2594EB;
     border-radius: 300px;
     font-family: 'Roboto', sans-serif;
-    align-items: center;
+    text-align: center;
     padding: 15px;
     padding-top: 50px;
 }

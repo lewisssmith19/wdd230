@@ -43,13 +43,11 @@ button:hover{
 	color: cornsilk;
 }
 .listcontainer button {
-	color: crimson;
-	background-color: black;
+	background-color: white;
 	margin-left: 350px;
 }
 .listcontainer button:hover {
-	color: black;
-	background-color: crimson;
+	background-color: black;
 }
 input {
 	width: 200px;
