@@ -8,7 +8,8 @@ img {
 .sitename > img {
     background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    background: center;
 }
 .sitename button {
     background-color: #F1AE65;
