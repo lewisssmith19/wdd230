@@ -2,14 +2,14 @@
 @media only screen and (min-width: 37.5em) {
 	header {
 		background-color: #2594EB;
-		border-radius: 300px;
+		border-radius: 30px;
 		font-family: 'Roboto', sans-serif;
 		align-items: center;
 		padding: 15px;
 		padding-top: 20px;
 	}
 	header > img {
-		padding: 20px;
+		padding: 5px;
 		margin-left: 100px;
 		margin-top: 50px;
 	}
@@ -77,13 +77,16 @@
 		border: 1px solid #3079C5;
 		padding:  5rem;
 		background-color: #F1AE65;
-		border-radius: 600px;
+		border-radius: 30px;
 		text-align: center;
 	}
 	.sitename section{
 		height: 98%;
 		padding: .1rem;
-		background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296"); 
+		background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296");
+		background-position: center;
+    	background-size: cover;
+    	position: relative; 
 	}
 	.grid {
 		display: grid;

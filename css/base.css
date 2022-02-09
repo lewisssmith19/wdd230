@@ -1,19 +1,13 @@
 img {
-    padding: 15px;
+    padding: 5px;
     height: auto;
     border-radius: 300px;
     background-color: #F1AE65;
     align-content: center;
 }
-.sitename > img {
-    background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: center;
-}
 .sitename button {
     background-color: #F1AE65;
-    border-radius: 300px;
+    border-radius: 30px;
     border: #F1AE65;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
@@ -21,7 +15,7 @@ img {
 }
 .sitename button:hover {
     background-color: black;
-    border-radius: 300px;
+    border-radius: 30px;
     border: #F1AE65;
     padding: 10px;
     color: white;
@@ -30,7 +24,7 @@ img {
 }
 .join button {
     background-color: #3079C5;
-    border-radius: 300px;
+    border-radius: 30px;
     border: #3079C5;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
@@ -38,7 +32,7 @@ img {
 }
 .join button:hover {
     background-color: black;
-    border-radius: 300px;
+    border-radius: 30px;
     border: black;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
@@ -47,7 +41,7 @@ img {
 }
 .event h3 {
     background-color: #F1AE65;
-    border-radius: 300px;
+    border-radius: 30px;
     color: #3079C5;
 }
 .currentDate {
@@ -58,10 +52,10 @@ img {
     width: 50px;
     background-color: #F1AE65;
     border-radius: 300px;
-    padding: 10px;
+    padding: 5px;
 }
 header > img {
-    padding: 20px;
+    padding: 5px;
     margin-left: 100px;
     margin-top: 10px;
 }
@@ -90,7 +84,7 @@ a:hover {
 }
 header {
     background-color: #2594EB;
-    border-radius: 300px;
+    border-radius: 30px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 15px;
@@ -101,18 +95,25 @@ section {
     border: 1px solid #3079C5;
     padding:  5rem;
     background-color: #F1AE65;
-    border-radius: 600px;
+    border-radius: 30px;
     text-align: center;
     box-shadow: 2px 2px 4px #000000;
 }
 .sitename section{
     height: 98%;
     padding: .1rem;
-    background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296"); 
+    background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/kace-lott-grbRPyX39Dg-unsplash.jpg?v=1643821093296");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.sitename {
+    color: black;
+    background-color: azure;
 }
 footer {
     background-color: #2594EB;
-    border-radius: 600px;
+    border-radius: 30px;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
     align-items: center;
@@ -163,11 +164,8 @@ nav {
 .navigation a:hover {
 	color: white;
 	background-color: black;
-    border-radius: 600px;
+    border-radius: 30px;
 }
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
 .responsive li {
 	display: block;
 }
