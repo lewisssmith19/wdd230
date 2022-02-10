@@ -5,6 +5,9 @@ img {
     background-color: #F1AE65;
     align-content: center;
 }
+h3 {
+    color: #3079C5;
+}
 .sitename button {
     background-color: #F1AE65;
     border-radius: 30px;
