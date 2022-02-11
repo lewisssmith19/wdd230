@@ -47,6 +47,14 @@
 		border-radius: 30px;
 		text-align: center;
 	}
+	.sitename section{
+		height: 98%;
+		padding: .1rem;
+		background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/wdd230-org.jpg?v=1644538731829");
+		background-position: center;
+    	background-size: cover;
+    	position: relative; 
+	}
 	.grid {
 		display: grid;
 		grid-template-columns: repeat(3, auto);
