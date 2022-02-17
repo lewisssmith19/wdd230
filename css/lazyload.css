@@ -24,17 +24,17 @@ img {
 	margin: 10px;
 	transition: all .75s;
     border-radius: 30px;
-    align-items: center;
+    align-items: center; 
     /* transform: translateX(50%);
     opacity: 0;
     transition: all 500ms; */
 }
-/* .fade {
+ /* .fade {
     transform: translateX(0);
     opacity: 1.0;
     transition: all 500ms;
-} */
-p {
+}  */
+ p {
     font-family: 'Roboto', sans-serif;
     border-bottom: 5px solid #2594EB;
 	border-right:  5px solid #2594EB;
@@ -49,4 +49,5 @@ p {
 img:hover {
 	transform: scale(1.1);
 	animation: ease-in-out;
+    cursor: none;
 }
