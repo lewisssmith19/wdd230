@@ -17,7 +17,6 @@ const lazyload = target => {
             }
         });
     });
-
     io.observe(target);
 };
 
