@@ -1,4 +1,4 @@
-const targets = document.querySelectorAll('img');
+const targets = Array.from(document.querySelectorAll('img'));
 
 const lazyload = target => {
     const io = new IntersectionObserver((entries, observer) => {
@@ -20,5 +20,5 @@ const lazyload = target => {
 
     io.observe(target);
 };
-
+console.log(targets)
 targets.forEach(lazyload);

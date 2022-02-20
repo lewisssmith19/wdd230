@@ -97,4 +97,29 @@
 		grid-column: 2/4;
 		grid-row: 3;
 	  }
+	.grid-images {
+		display: grid; 
+		grid-template-columns: 1fr 1fr; 
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+		gap: 50px 50px; 
+		grid-template-areas: 
+		  "image2 image2"
+		  "image1 image10"
+		  "image1 image10"
+		  "image3 image4"
+		  "image5 image6"
+		  "image8 image9"
+		  "image8 image7";
+		  justify-content: center; 
+	  }
+	  .image2 { grid-area: image2; }
+	  .image1 { grid-area: image1; }
+	  .image10 { grid-area: image10; }
+	  .image3 { grid-area: image3; }
+	  .image4 { grid-area: image4; }
+	  .image5 { grid-area: image5; }
+	  .image6 { grid-area: image6; }
+	  .image8 { grid-area: image8; }
+	  .image9 { grid-area: image9; }
+	  .image7 { grid-area: image7; }
 }
