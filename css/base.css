@@ -74,6 +74,31 @@ header h3 {
     color: black;
     background-color: #2594EB;
 }
+form {
+    align-content: center;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #2594EB; 
+    border-radius: 30px;
+    padding: 15px;
+    margin: 15px;
+    border-color: #F1AE65;
+}
+input {
+    font-family: 'Varela Round', sans-serif;
+    color: #000000;
+    background-color: #F1AE65;
+    border-radius: 5px;
+    box-shadow: #F1AE65;
+    border-color: #2594EB;
+}
+select {
+    font-family: 'Varela Round', sans-serif;
+    color: #000000;
+    background-color: #F1AE65;
+    border-radius: 5px;
+    box-shadow: #F1AE65;
+    border-color: #F1AE65;
+}
 .social {
     display: flex;
     justify-content: flex-end;
