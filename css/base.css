@@ -90,6 +90,8 @@ input {
     border-radius: 5px;
     box-shadow: #F1AE65;
     border-color: #2594EB;
+    padding: 3px;
+    margin: 1px;
 }
 select {
     font-family: 'Varela Round', sans-serif;
