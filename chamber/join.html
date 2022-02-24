@@ -32,17 +32,15 @@
             Business Name:* <input type="text" name="business-name" required><br>
             <label for="phone">Phone Number:*</label>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
-            <small>Format: XXX-XXX-XXXX</small><br>
-            Membership Plan:*
-            <select>
-                <option value="NP Membership is for non profit organizations and there is no fee." name="NP Membership is for non profit organizations and there is no fee."> NP Membership</option>
-                <option value="Bronze Membership" name="Bronze Membership"> Bronze Membership</option>
-                <option value="Silver Membership" name="Silver Membership"> Silver Membership</option>
-                <option value="Gold Membership" name="Gold Membership"> Gold Membership</option><br>
-            </select><br>
+            <small>Format: XXX-XXX-XXXX</small><br><br>
+            <div>Membership Plan:*</div>
+            <label><input type="radio" name="Membership" value="NP Membership is for non profit organizations and there is no fee"> NP Membership</label><br>
+            <label><input type="radio" name="Membership" value="Bronze Membership"> Bronze Membership</label><br>
+            <label><input type="radio" name="Membership" value="Silver Membership"> Silver Membership</label><br>
+            <label><input type="radio" name="Membership" value="Gold Membership"> Gold Membership</label><br>
             <small>* Required Field</small><br><br>
-            <input type="submit" value="Join">
-            <input type="reset" value="Clear"><br>
+            <input type="submit" value="Join Us!">
+            <!-- <input type="reset" value="Clear"><br>  -->
         </form>
     </body>
     <footer>
