@@ -23,23 +23,24 @@
     </header>
     <body>
         <form action="/wdd230/chamber/thankyou.html" method="get">
-            <h4>Please fill out this form</h4>
-            First Name: <input type="text" name="firstname" required><br>
-            Last Name: <input type="text" name="lastname"required><br>
+            <h4>JOIN OUR COMMUNITY</h4>
+            First Name:* <input type="text" name="firstname" required><br>
+            Last Name:* <input type="text" name="lastname"required><br>
             Business Position: <input type="text" name="business-position"><br>
-            Email: <input type="email" name="email" required><br>
-            Password: <input type="password"  name="password" min="8"><br>
-            Business Name: <input type="text" name="business-name" required><br>
-            <label for="phone">Phone Number</label>
+            Email:* <input type="email" name="email" required><br>
+            Password:* <input type="password"  name="password" min="8" required><br>
+            Business Name:* <input type="text" name="business-name" required><br>
+            <label for="phone">Phone Number:*</label>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
-            <small>Format: 555-555-5555</small><br>
-            Membership Plan:
+            <small>Format: XXX-XXX-XXXX</small><br>
+            Membership Plan:*
             <select>
                 <option value="NP Membership is for non profit organizations and there is no fee." name="NP Membership is for non profit organizations and there is no fee."> NP Membership</option>
                 <option value="Bronze Membership" name="Bronze Membership"> Bronze Membership</option>
                 <option value="Silver Membership" name="Silver Membership"> Silver Membership</option>
                 <option value="Gold Membership" name="Gold Membership"> Gold Membership</option><br>
-            </select><br><br>
+            </select><br>
+            <small>* Required Field</small><br><br>
             <input type="submit" value="Join">
             <input type="reset" value="Clear"><br>
         </form>
