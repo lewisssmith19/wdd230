@@ -22,24 +22,35 @@
         </nav>
     </header>
     <body>
+        <h2>JOIN OUR COMMUNITY</h2>
         <form action="/wdd230/chamber/thankyou.html" method="get">
-            <h4>JOIN OUR COMMUNITY</h4>
-            First Name:* <input type="text" name="firstname" required><br>
-            Last Name:* <input type="text" name="lastname"required><br>
-            Business Position: <input type="text" name="business-position"><br>
-            Email:* <input type="email" name="email" required><br>
-            Password:* <input type="password"  name="password" min="8" required><br>
-            Business Name:* <input type="text" name="business-name" required><br>
-            <label for="phone">Phone Number:*</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
-            <small>Format: XXX-XXX-XXXX</small><br><br>
-            <div>Membership Plan:*</div>
-            <label><input type="radio" name="Membership" value="NP Membership is for non profit organizations and there is no fee"> NP Membership</label><br>
-            <label><input type="radio" name="Membership" value="Bronze Membership"> Bronze Membership</label><br>
-            <label><input type="radio" name="Membership" value="Silver Membership"> Silver Membership</label><br>
-            <label><input type="radio" name="Membership" value="Gold Membership"> Gold Membership</label><br>
-            <small>* Required Field</small><br><br>
-            <input type="submit" value="Join Us!">
+            <fieldset>
+                <legend>Personal</legend>
+                <label class="top"> First Name:* <input type="text" name="firstname" required></label><br>
+                <label class="top"> Last Name:* <input type="text" name="lastname"required></label><br>
+                <label class="top"> Email:* <input type="email" name="email" required></label><br>
+                <label class="top"> Password:* <input type="password"  name="password" min="8" required></label><br>
+                <label class="top" >Phone Number:*
+                <input class="top" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label><br>
+                <small>Format: XXX-XXX-XXXX</small><br>
+                <small>* Required Field</small><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business</legend>
+                <label class="bottom"> Business Name:* <input type="text" name="business-name" required></label><br>
+                <label class="bottom"> Business Position: <input type="text" name="business-position"></label><br>
+                <label class="bottom"> Business Description: <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea></label><br><br>
+                <div class="radio"> <h4>Membership Plan:*</h4>
+                    <!-- <h3>Membership Plan</h3> -->
+                    <label><input type="radio" name="Membership" value="NP Membership is for non profit organizations and there is no fee"> NP Membership</label><br>
+                    <label><input type="radio" name="Membership" value="Bronze Membership"> Bronze Membership</label><br>
+                    <label><input type="radio" name="Membership" value="Silver Membership"> Silver Membership</label><br>
+                    <label><input type="radio" name="Membership" value="Gold Membership"> Gold Membership</label><br>
+                </div>
+                <small>* Required Field</small><br><br>
+            </fieldset>
+            <input type="submit" value="Join Us!" class="submitBtn">
             <!-- <input type="reset" value="Clear"><br>  -->
         </form>
     </body>
