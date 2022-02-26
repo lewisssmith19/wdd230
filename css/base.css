@@ -135,7 +135,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 .radio {
-    display: block;
+    display: inline-block;
     font-family: 'Varela Round', sans-serif;
     font-size: larger;
 }
