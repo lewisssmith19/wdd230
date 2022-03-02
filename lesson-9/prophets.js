@@ -43,5 +43,9 @@ fetch(requestURL)
   
     // Add/append the existing HTML div with the cards class with the section(card)
     cards.appendChild(card);
+
+    // for (let i=0; i < lastname.length; i++) {
+    //     lastname[i] = lastname [i] + "!";
+    // }
   }
   
