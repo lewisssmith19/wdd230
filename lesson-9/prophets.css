@@ -1,0 +1,9 @@
+.cards {
+    padding: 15px;
+    background-color: cadetblue;
+}
+h1 {
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
