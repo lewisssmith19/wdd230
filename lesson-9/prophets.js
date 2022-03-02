@@ -10,7 +10,7 @@ fetch(requestURL)
     prophets = jsonObject.prophets;
     prophets.forEach(displayProphets);  // temporary checking for valid response and data parsing
   });
-
+  
   
   console.log(prophets)
 
@@ -20,10 +20,14 @@ fetch(requestURL)
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
+    let h3 = document.createElement('h3');
+    let h4 = document.createElement('h4');
     let portrait = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = prophet.name + ' ' + prophet.lastname + ' ' + 1;
+    h3.textContent = 'Birth Date:' + ' ' + prophet.birthdate;
+    h4.textContent = 'Death Date' + ' ' + prophet.death;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
@@ -32,6 +36,9 @@ fetch(requestURL)
   
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
+    card.appendChild(h3);
+    card.appendChild(h4)
+
     card.appendChild(portrait);
   
     // Add/append the existing HTML div with the cards class with the section(card)

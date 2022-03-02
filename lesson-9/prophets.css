@@ -38,8 +38,8 @@ img:hover {
     -o-transform:rotate(-7deg);
     transform: rotate(-7deg);
 }
-h2 {
+h2, h3, h4 {
     color: antiquewhite;
-    padding: 10px;
+    padding: 3px;
     font-family: 'Dancing Script', cursive;
 }
