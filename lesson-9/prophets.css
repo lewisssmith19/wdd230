@@ -17,7 +17,7 @@ h1 {
 }
 section {
     margin: 10px;
-    padding: 15px;
+    padding: 5px;
     background-color: cadetblue;
     border: 1px solid #bbb;
     display: flex;
@@ -38,7 +38,7 @@ img:hover {
     -o-transform:rotate(-7deg);
     transform: rotate(-7deg);
 }
-h2, h3, h4 {
+h2, p, h4 {
     color: antiquewhite;
     padding: 3px;
     font-family: 'Dancing Script', cursive;
