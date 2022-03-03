@@ -1,6 +1,6 @@
 const requestURL = 'https://lewisssmith19.github.io/wdd230/js/data.json';
-const company = document.querySelector('.company'); 
-let prophets = null;
+const companys = document.querySelector('.companys'); 
+let companies = null;
 
 fetch(requestURL)
   .then(function (response) {
@@ -18,7 +18,7 @@ fetch(requestURL)
 
   function displayCompanies(companies) {
     // Create elements to add to the document
-    let card = document.createElement('section');
+    let company = document.createElement('section');
     let h2 = document.createElement('h2');
     let p = document.createElement('p');
     let h4 = document.createElement('h4');
@@ -36,14 +36,15 @@ fetch(requestURL)
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
-    card.appendChild(h2);
-    card.appendChild(p);
-    card.appendChild(h4);
+    company.appendChild(h2);
+    company.appendChild(p);
+    company.appendChild(h4);
+    company.appendChild(a);
 
-    card.appendChild(portrait);
+    company.appendChild(portrait);
   
     // Add/append the existing HTML div with the cards class with the section(card)
-    cards.appendChild(card);
+    companys.appendChild(company);
 
     // for (let i=0; i < lastname.length; i++) {
     //     lastname[i] = lastname [i] + "!";
