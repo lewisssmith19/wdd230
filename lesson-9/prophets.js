@@ -37,7 +37,7 @@ fetch(requestURL)
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
     card.appendChild(p);
-    card.appendChild(h4)
+    card.appendChild(h4);
 
     card.appendChild(portrait);
   
