@@ -4,8 +4,8 @@
             "name": "McDonalds",
             "address": "976 Cristina Coves, Apt. 053, 79146, East Emeliamouth, Oregon, United States",
             "phone": "+1 582-400-4353",
-            "website": "https://www.mcdonalds.com/us/en-us.html",
-            "image/logo": "#"
+            "website": "https://www.mcdonalds.com/",
+            "image/logo": ""
         },
         {
             "name": "Big J's",
@@ -26,7 +26,7 @@
             "address": "1172 Lehner Mount, Apt. 745, 93163, Smithtown, Wisconsin, United States",
             "phone": "+1 407-213-5025",
             "website": "https://www.nike.com/",
-            "image/logo": "#"
+            "image/logo": "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/josh-bryan-7uEiMYcnhM4-unsplash.jpg?v=1643062835777"
         },
         {
             "name": "YoungLA",
@@ -75,7 +75,7 @@
             "address": "1688 Krajcik Pike, Apt. 570, 85824-0979, East Josh, Ohio, United States",
             "phone": "+1 207-993-0346",
             "website": "https://www.dodge.com/",
-            "image/logo": "#"
+            "image/logo": "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/Dodge%20Official%20Site%20%E2%80%93%20Muscle%20Cars%20%26%20Sports%20Cars.JPEG?v=1642117462773"
         },
         {
             "name": "Subway",
