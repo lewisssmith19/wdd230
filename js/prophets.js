@@ -24,8 +24,9 @@ fetch(requestURL)
     let h4 = document.createElement('h4');
     let portrait = document.createElement('img');
   
+    prophet.order
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = prophet.name + ' ' + prophet.lastname + ' ' + 1;
+    h2.textContent = prophet.name + ' ' + prophet.lastname;
     p.textContent = 'Birth Date:' + ' ' + prophet.birthdate;
     h4.textContent = 'Death Date' + ' ' + prophet.death;
   
