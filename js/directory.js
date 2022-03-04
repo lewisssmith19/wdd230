@@ -20,7 +20,7 @@ fetch(requestURL)
     // Create elements to add to the document
     let company = document.createElement('section');
     let h2 = document.createElement('h2');
-    let p = document.createElement('p');
+    // let p = document.createElement('p');
     let h4 = document.createElement('h4');
     let a = document.createElement('a')
     let portrait = document.createElement('img');
@@ -36,7 +36,7 @@ fetch(requestURL)
   
     // Add/append the section(card) with the h2 element
     company.appendChild(h2);
-    company.appendChild(p);
+    // company.appendChild(p);
     company.appendChild(h4);
     company.appendChild(a);
 

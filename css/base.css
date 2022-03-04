@@ -11,6 +11,7 @@ img:hover {
     -o-transform:rotate(-7deg);
     transform: rotate(-7deg);
 }
+/*                            directory                      */
 .companys {
     padding: 15px;
     background-color: #2594EB;
@@ -26,7 +27,10 @@ img:hover {
 	font-weight: bolder;
 	font-size: larger;
 }
-
+.directory a {
+    color: #3079C5;
+    font-family: 'Varela Round', sans-serif;
+}
 h3 {
     color: black;
 }
