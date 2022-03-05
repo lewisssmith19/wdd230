@@ -12,6 +12,10 @@ img:hover {
     transform: rotate(-7deg);
 }
 /*                            directory                      */
+.image-style {
+    max-width: 300px;
+    border-radius: 10px;
+}
 .companys {
     padding: 15px;
     background-color: #2594EB;
