@@ -12,6 +12,25 @@ img:hover {
     transform: rotate(-7deg);
 }
 /*--------------------directory------------------*/
+.companies phone {
+    font-family: 'Varela Round', sans-serif;
+    padding: 5px;
+    font-size: large;
+}
+.companies address {
+    font-family: 'Varela Round', sans-serif;
+    padding: 5px;
+    font-size: large;
+}
+.companies a {
+    font-family: 'Varela Round', sans-serif;
+    padding: 5px;
+    font-size: large;
+}
+.companies a:hover {
+    color: #3079C5;
+    cursor: pointer;
+}
 .portraitContainer img {
     width: 100%;
     max-width: 300px;
