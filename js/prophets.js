@@ -23,17 +23,6 @@ fetch(requestURL)
     let p = document.createElement('p');
     let h4 = document.createElement('h4');
     let portrait = document.createElement('img');
-  
-    prophet.order
-    // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = prophet.name + ' ' + prophet.lastname;
-    p.textContent = 'Birth Date:' + ' ' + prophet.birthdate;
-    h4.textContent = 'Death Date' + ' ' + prophet.death;
-  
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname);
-    portrait.setAttribute('loading', 'lazy');
     let order = ``;
     if (prophet.order === 1) {
       order = `${prophet.order}st`;
@@ -44,6 +33,18 @@ fetch(requestURL)
     } else {
       order = `${prophet.order}th`;
     }
+  
+    prophet.order
+    // Change the textContent property of the h2 element to contain the prophet's full name
+    h2.textContent = prophet.name + ' ' + prophet.lastname + ' ' + order;
+    p.textContent = 'Birth Date:' + ' ' + prophet.birthdate;
+    h4.textContent = 'Death Date' + ' ' + prophet.death;
+  
+    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+    portrait.setAttribute('src', prophet.imageurl);
+    portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname);
+    portrait.setAttribute('loading', 'lazy');
+    
 
   
 
