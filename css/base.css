@@ -12,11 +12,11 @@ img:hover {
     transform: rotate(-7deg);
 }
 /*--------------------directory------------------*/
-/* .image-style {
+.portraitContainer img {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
-} */
+}
 .companies {
     padding: 15px;
     background-color: #2594EB;
