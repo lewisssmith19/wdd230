@@ -35,14 +35,14 @@ fetch(requestURL)
     portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname);
     portrait.setAttribute('loading', 'lazy');
     let order = ``;
-    if (prophet.order ===1) {
+    if (prophet.order === 1) {
       order = `${prophet.order}st`;
-    } else if (prophet.order ===2) {
+    } else if (prophet.order === 2) {
       order = `${prophet.order}nd`;
-    } else if (prophet.order ===3) {
+    } else if (prophet.order === 3) {
       order = `${prophet.order}rd`;
     } else {
-      order = `${prophet.order}th`
+      order = `${prophet.order}th`;
     }
 
   
