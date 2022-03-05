@@ -24,6 +24,7 @@ fetch(requestURL)
     let h4 = document.createElement('h4');
     let a = document.createElement('a')
     let portrait = document.createElement('img');
+    companies.order
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = companies.name;
@@ -31,7 +32,7 @@ fetch(requestURL)
     a.textContent = companies.website;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', companies.imageurl);
+    portrait.setAttribute('src', companies.image);
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element

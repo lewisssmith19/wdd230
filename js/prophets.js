@@ -35,6 +35,8 @@ fetch(requestURL)
     portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname);
     portrait.setAttribute('loading', 'lazy');
   
+
+    
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
     card.appendChild(p);
