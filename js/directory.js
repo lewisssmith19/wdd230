@@ -6,6 +6,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
+    console.table(jsonObject);
     const companys = jsonObject['companies'];
     companys.forEach(displayCompanies);  // temporary checking for valid response and data parsing
   });
@@ -32,12 +33,12 @@ fetch(requestURL)
     address.textContent = companies.address; 
     phone.textContent = companies.phone;
     a.textContent = companies.website;
-
+    a.setAttribute('target', '_blank');
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', companies.image);
     portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('alt');
+    portrait.setAttribute('alt', 'images');
     portraitContainer.appendChild(portrait);
     portraitContainer.setAttribute('class', 'portraitContainer');
     company.appendChild(portraitContainer);
@@ -46,7 +47,7 @@ fetch(requestURL)
     // company.appendChild(p);
     company.appendChild(address);
     company.appendChild(a);
-    website.setAttribute('target', '_blank');
+   
 
   
     // Add/append the existing HTML div with the cards class with the section(card)
