@@ -11,12 +11,13 @@ img:hover {
     -o-transform:rotate(-7deg);
     transform: rotate(-7deg);
 }
-/*                            directory                      */
-.image-style {
+/*--------------------directory------------------*/
+/* .image-style {
+    width: 100%;
     max-width: 300px;
     border-radius: 10px;
-}
-.companys {
+} */
+.companies {
     padding: 15px;
     background-color: #2594EB;
     border-radius: 30px;
@@ -230,7 +231,7 @@ section {
     color: black;
     background-color: azure;
 }
-/* discover page =>*/
+/*----------------- discover page------------*/
 .grid-images {
     width: 400px;
     height: auto;
@@ -252,7 +253,6 @@ img:hover {
     opacity: 1.0;
     transition: all 500ms;
 }
-/* <= discover page */
 footer {
     background-color: #2594EB;
     border-radius: 30px;
@@ -272,7 +272,7 @@ footer img {
 }
 
 
-/* Small/Phone View ***************/
+/* ***************Small/Phone View ***************/
 nav {
 	margin: 0 auto;
 	max-width: 50px;
