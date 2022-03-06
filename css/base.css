@@ -12,6 +12,20 @@ img:hover {
     transform: rotate(-7deg);
 }
 /*--------------------directory------------------*/
+.gridBtn img{
+    border-radius: 10px;
+    background-color: #3079C5;
+    color: #F1AE65;
+    max-width: 40px;
+    margin: .5px;
+    padding: 5px;
+}
+.gridBtn img:hover {
+    cursor: pointer;
+}
+.gridBtn {
+    border: none;
+}
 .companies phone {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
@@ -35,6 +49,7 @@ img:hover {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
+    height: auto;
 }
 .companies {
     padding: 15px;
