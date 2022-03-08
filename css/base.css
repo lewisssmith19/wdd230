@@ -12,19 +12,17 @@ img:hover {
     transform: rotate(-7deg);
 }
 /*--------------------directory------------------*/
-.gridBtn img{
+.gridBtns img{
     border-radius: 10px;
     background-color: #F1AE65;
     max-width: 40px;
     margin: .5px;
     padding: 5px;
 }
-.gridBtn img:hover {
+.gridBtns img:hover {
     cursor: pointer;
 }
-.gridBtn {
-    border: none;
-}
+
 .companies phone {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
