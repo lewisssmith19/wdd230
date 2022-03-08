@@ -23,7 +23,6 @@ fetch(requestURL)
     let phone = document.createElement('phone');
     let a = document.createElement('a');
     let portrait = document.createElement('img');
-    let portraitContainer = document.createElement('h2');
   
     
     h2.textContent = company.name;
@@ -36,12 +35,10 @@ fetch(requestURL)
     portrait.setAttribute('src', company.image);
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('alt', 'images');
-    portraitContainer.appendChild(portrait);
-    portraitContainer.setAttribute('class', 'portraitContainer');
-    card.appendChild(portraitContainer);
+    card.appendChild(h2);
+    card.appendChild(portrait);
   
     card.appendChild(phone);
-
     card.appendChild(address);
     card.appendChild(a);
    

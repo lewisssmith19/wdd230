@@ -12,6 +12,10 @@ img:hover {
     transform: rotate(-7deg);
 }
 /*--------------------directory------------------*/
+.gridBtns button {
+    background-color: transparent;
+    border: transparent;
+}
 .gridBtns img{
     border-radius: 10px;
     background-color: #F1AE65;
@@ -24,14 +28,26 @@ img:hover {
 .gridBtns img:hover {
     cursor: pointer;
 }
-.gridBtns img:active{
-    background-color: #3079C5;    
+/* .gridBtns img:active{ 
+    background-color: #3079C5;
+} */
+#blueBtn {
+    background-color: #3079C5;
 }
-
+#listView img {
+    display: none;
+}
+#listView h2 {
+    display: block;
+}
 .companies phone {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
     font-size: large;
+    display: block;
+}
+.companies h2 {
+    display: none;
 }
 .companies address {
     font-family: 'Varela Round', sans-serif;
@@ -47,7 +63,7 @@ img:hover {
     color: #3079C5;
     cursor: pointer;
 }
-.portraitContainer img {
+.companies img {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;

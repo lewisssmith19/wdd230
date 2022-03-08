@@ -125,4 +125,22 @@
 	  .image8 { grid-area: image8; }
 	  .image9 { grid-area: image9; }
 	  .image7 { grid-area: image7; }
+	
+	#listView {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	#listView section {
+		width: 97%;
+		display: flex;
+    	align-items: center;
+    	gap: 30px;
+	}
+	#listView h2 {
+		display: block;
+	}
+	#listView img {
+		display: none;
+	}
 }
