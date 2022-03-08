@@ -24,6 +24,9 @@ img:hover {
 .gridBtns img:hover {
     cursor: pointer;
 }
+.gridBtns img:active{
+    background-color: #3079C5;    
+}
 
 .companies phone {
     font-family: 'Varela Round', sans-serif;
