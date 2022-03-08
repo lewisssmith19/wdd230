@@ -15,9 +15,11 @@ img:hover {
 .gridBtns img{
     border-radius: 10px;
     background-color: #F1AE65;
-    max-width: 40px;
-    margin: .5px;
-    padding: 5px;
+    max-width: 44px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    min-height: unset;
 }
 .gridBtns img:hover {
     cursor: pointer;
