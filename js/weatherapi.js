@@ -1,19 +1,29 @@
-const weatherApi = api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={da06ec2c60e15d55813ec4b8ac326745}
+const weatherApi = `https://api.openweather.org/data/2.5/weather?id=5604473&units=imperial&APPID=07407eccd051a7a7b4fc81e18747771`;
 
 const apiURL = "...";
 fetch(apiURL)
   .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
+  .then((x) => {
+    
+    const currentTemp = document.querySelector('#current-temp');
+    const weathericon = document.querySelector('#weathericon');
+
+
+    
+    currentTemp.textContent = x.main.currentTemp.toFixed(0);
+    let imgsrc = `https://openweathermap.org/img/w/${x.weather[0].icon}.png`;
+    let imgalt = x.weather[0].description;
+    imgalt = imgalt.split(' ').map(capitalize).join(' ');
+    
+    currentTemp.textContent = x.main.temp.toFixed(0);
+    weathericon.setAttribute('src', imgsrc);
+    weathericon.setAttribute('alt', imgalt);
+    caption.innerHTML = imgalt;
+
+    
   });
 
+function capitalize(word) {
+    return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
+}
 
-  document.querySelector('#current-temp').textContent = jsObject.main.temp;
-
-
-const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-const desc = jsObject.weather[0].description;
-document.querySelector('#icon-src').textContent = iconsrc;
-document.querySelector('#weathericon').setAttribute('src', iconsrc);
-document.querySelector('#weathericon').setAttribute('alt', desc);
-document.querySelector('figcaption').textContent = desc;
