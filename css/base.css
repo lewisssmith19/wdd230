@@ -305,6 +305,95 @@ img:hover {
     opacity: 1.0;
     transition: all 500ms;
 }
+/* ----------------- Contact ----------------- */
+.contact form fieldset {
+    margin: 2rem 0;
+    border: 10px solid #F1AE65;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    background-color: #2594EB;
+}
+.contact form legend {
+    color: #000000;
+    margin: 0 2rem;
+    padding: .1rem .75rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size:xx-large;
+}
+.contact form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #000000;
+    font-size: .8rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.contact form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #2594EB;
+    padding: .75rem;
+    color: #000000;
+    width: 100%;
+    max-width: 20rem;
+    border-radius: 10px;
+    background-color: #F1AE65;
+    font-family: 'Varela Round', sans-serif;
+}
+.contact form label.bottom {
+    display: block;
+    padding: .75rem 0;
+    color: #000000;
+    font-family: 'Varela Round', sans-serif;
+}
+.contact form label.bottom input {
+    display: block;
+    background-color: #F1AE65;
+    border-radius: 10px;
+    border: none;
+    padding: .75rem;
+}
+.contact form label.bottom textarea {
+    display: block;
+    background-color: #F1AE65;
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+}
+.contact form input.submitBtn {
+    border: none;
+    background-color: #F1AE65;
+    color: #000000;
+    border-radius: 10px;
+    padding: .75rem 1.5rem;
+    font-family: 'Varela Round', sans-serif;
+    font-size: larger;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+.contact .radio {
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: larger;
+}
+.contact form input.submitBtn:hover {
+    background-color: #2594EB;
+    color: #F1AE65;
+    font-size: larger;
+}
+.contact form label.top input:required {
+    border-left: red solid 6px;
+}
+.contact form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+.contact form label.bottom input:required {
+    border-left: red solid 6px;
+}
+.contact form label.bottom input:required:valid {
+    border-left: green solid 6px;
+}
+
 footer {
     background-color: #2594EB;
     border-radius: 30px;
