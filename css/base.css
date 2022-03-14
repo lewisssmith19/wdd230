@@ -141,6 +141,20 @@ h3 {
     border-radius: 300px;
     padding: 5px;
 }
+/* #social {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    justify-self: center;
+}
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    min-width: 6rem;
+} */
 header > img {
     padding: 1px;
     margin-left: 10px;
@@ -238,7 +252,7 @@ form label.bottom input:required:valid {
 .social {
     display: flex;
     justify-content: flex-end;
-    padding-right: 30px;
+    /* padding-right: 30px; */
 }
 h1, h2, h3, h4, p {
     text-align: center;
