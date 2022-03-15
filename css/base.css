@@ -136,6 +136,29 @@ h3 {
 .join button a:hover {
     color: #2594EB;
 }
+.sitename button {
+    background-color: #3079C5;
+    border-radius: 30px;
+    border: #3079C5;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    box-shadow: 2px 2px 4px #000000;
+}
+.sitename button:hover  {
+    background-color: black;
+    border-radius: 30px;
+    border: black;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: #2594EB;
+    cursor: pointer;
+}
+.sitename button a {
+    color: #F1AE65;
+}
+.sitename button a:hover {
+    color: #2594EB;
+}
 .event h3 {
     background-color: #F1AE65;
     border-radius: 30px;
