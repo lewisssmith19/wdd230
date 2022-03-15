@@ -115,9 +115,8 @@ h3 {
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
     box-shadow: 2px 2px 4px #000000;
-    color: #F1AE65;
 }
-.join button:hover {
+.join button:hover  {
     background-color: black;
     border-radius: 30px;
     border: black;
@@ -125,6 +124,12 @@ h3 {
     font-family: 'Varela Round', sans-serif;
     color: #2594EB;
     cursor: pointer;
+}
+.join button a {
+    color: #F1AE65;
+}
+.join button a:hover {
+    color: #2594EB;
 }
 .event h3 {
     background-color: #F1AE65;
@@ -138,7 +143,7 @@ h3 {
 .social > img {
     width: 50px;
     background-color: #F1AE65;
-    border-radius: 300px;
+    border-radius: 5px;
     padding: 5px;
 }
 header > img {
@@ -238,7 +243,7 @@ form label.bottom input:required:valid {
 .social {
     display: flex;
     justify-content: flex-end;
-    /* padding-right: 30px; */
+    border-radius: 5px;
 }
 h1, h2, h3, h4, p {
     text-align: center;
@@ -396,7 +401,7 @@ img:hover {
 
 footer {
     background-color: #2594EB;
-    border-radius: 30px;
+    border-radius: 5px;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
     align-items: center;
@@ -419,7 +424,7 @@ nav {
 	max-width: 50px;
 	background-color: #F1AE65;
     font-family: 'Varela Round', sans-serif;
-    border-radius: 600px;
+    border-radius: 5px;
 }
 .navigation {
 	list-style: none;
@@ -449,7 +454,7 @@ nav {
 .navigation a:hover {
 	color: white;
 	background-color: black;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 .responsive li {
 	display: block;

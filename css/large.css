@@ -39,6 +39,12 @@
 		grid-template-columns: 33% 33% 33%;
 		grid-template-rows: 33% 33% 33%;
 	}
+	.join section , .newsrelease section, .event section{
+		height: 83%;
+	  }
+	  .spotlight2 section {
+		height: 90%;
+	}
 	section:nth-child(3) {
 		grid-column: span 1;
 	}
@@ -47,7 +53,7 @@
 		border: 1px solid #3079C5;
 		padding:  1rem;
 		background-color: #F1AE65;
-		border-radius: 30px;
+		border-radius: 5px;
 		text-align: center;
 	}
 	.sitename section{
@@ -62,7 +68,7 @@
 		display: grid;
 		grid-template-columns: repeat(3, auto);
 		grid-template-rows: repeat(3, auto);
-		border-radius: 30px;
+		border-radius: 5px;
 		text-align: center;
 	  }
 	
@@ -82,6 +88,9 @@
 	.spotlight1 {
 		grid-column: 4/5;
 		grid-row: 1;
+	  }
+	  .spotlight1 section {
+		height: 83%;
 	  }
 	.spotlight2 {
 		grid-column: 4/5;
