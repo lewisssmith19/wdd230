@@ -39,8 +39,11 @@
 		grid-template-columns: 33% 33% 33%;
 		grid-template-rows: 33% 33% 33%;
 	}
-	.join section , .newsrelease section, .event section{
+	.event section{
 		height: 83%;
+	  }
+	  .join section , .newsrelease section, .spotlight3 section {
+		height: 80%;
 	  }
 	  .spotlight2 section {
 		height: 90%;
@@ -101,6 +104,9 @@
 		grid-column: 4/5;
 		grid-row: 3;
 	  }
+	  /* .spotlight3 section {
+		height: 95%;
+	  } */
     .join {
 		grid-column: 1/2;
 		grid-row: 3;

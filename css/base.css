@@ -33,9 +33,6 @@ img:hover {
 .gridBtns img:hover {
     cursor: pointer;
 }
-/* .gridBtns img:active{ 
-    background-color: #3079C5;
-} */
 #blueBtn {
     background-color: #3079C5;
 }
@@ -180,6 +177,7 @@ header > img {
     margin-top: 10px;
 }
 /* ---------------Form------------------- */
+
 form fieldset {
     margin: 2rem 0;
     border: 10px solid #F1AE65;
