@@ -116,10 +116,13 @@
 		grid-row: 3;
 	  }
 	.grid-images {
+		width: unset;
+		transform: translateX(0);
 		display: grid; 
 		grid-template-columns: 1fr 1fr; 
 		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
 		gap: 50px 50px; 
+		align-items: center;
 		grid-template-areas: 
 		  "image2 image2"
 		  "image1 image10"
@@ -130,7 +133,14 @@
 		  "image8 image7";
 		  justify-content: center; 
 	  }
-	  .image2 { grid-area: image2; }
+	  .image2 { 
+		grid-area: image2; 
+		display: flex;
+		flex-direction: column;
+	}
+	.image2 img {
+		margin: 0 auto;
+	}
 	  .image1 { grid-area: image1; }
 	  .image10 { grid-area: image10; }
 	  .image3 { grid-area: image3; }
@@ -157,5 +167,8 @@
 	}
 	#listView img {
 		display: none;
+	}
+	.grid-images div img {
+		max-width: 500px;
 	}
 }

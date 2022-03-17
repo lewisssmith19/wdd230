@@ -137,46 +137,22 @@
 	  }
 	
 	.grid-images {
-		display: grid; 
-		grid-template-columns: 1fr 1fr; 
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-		gap: 13px 20px;
-		grid-template-areas:
-		"image1 image2"
-		"image3 image4"
-		"image5 image6"
-		"image7 image8"
-		"image9 image10"
-	  }
-	
-	.image1 {
-		grid-area: image1;
-	  }
-	.image2 {
-		grid-area: image2;
-	  }
-    .image3 {
-		grid-area: image3;
-	  }
-	.image4 {
-		grid-area: image4;
-	  }
-	.image5 {
-		grid-area: image5;
-	  }
-    .image6 {
-		grid-area: image6;
-	  }
-    .image7 {
-		grid-area: image7;
-	  }
-	.image8 {
-		grid-area: image8;
+		width: 400px;
+		height: auto;
+		transform: translateX(75%);
+		opacity: 1;
+		transition: all 300ms;
+		border-radius: 30px;
+		display: inline;
+		justify-content: center;
+		padding: 20px;
 	}
-	.image9 {
-		grid-area: image9;
+	.grid-images div {
+		display: flex;
+		flex-direction: column;
 	}
-	.image10 {
-		grid-area: image10;
+	.grid-images div img {
+		margin: 0 auto;
+		max-width: 400px;
 	}
 }

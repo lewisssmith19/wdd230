@@ -458,6 +458,9 @@ nav {
 
 .navigation a.ham::before {
 	content: "=";
+    background-color: #3079C5;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .navigation a:hover {
@@ -471,4 +474,24 @@ nav {
 
 .responsive a.ham::before {
 	content: "❌ ";
+    background-color: #000000;
+}
+.grid-images {
+    width: 400px;
+    height: auto;
+    transform: translateX(75%);
+    opacity: 1;
+    transition: all 300ms;
+    border-radius: 30px;
+    display: inline;
+    justify-content: center;
+    padding: 20px;
+}
+.grid-images div {
+    display: flex;
+    flex-direction: column;
+}
+.grid-images div img {
+    margin: 0 auto;
+    max-width: 250px;
 }
