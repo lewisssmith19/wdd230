@@ -90,24 +90,6 @@ img:hover {
 h3 {
     color: black;
 }
-.sitename button {
-    background-color: #F1AE65;
-    border-radius: 5px;
-    border: #F1AE65;
-    padding: 10px;
-    font-family: 'Varela Round', sans-serif;
-    box-shadow: 2px 2px 4px #000000;
-}
-.sitename button:hover {
-    background-color: black;
-    border-radius: 5px;
-    border: #F1AE65;
-    padding: 10px;
-    color: white;
-    font-family: 'Varela Round', sans-serif;
-    cursor: pointer;
-}
-box-shadow
 .join p {
     color: #000000;
 }
@@ -117,7 +99,7 @@ box-shadow
     border: #3079C5;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
-    /* box-shadow: 2px 2px 4px #000000; */
+    box-shadow: 2px 2px 4px #000000;
 }
 .join button:hover  {
     background-color: black;
@@ -140,7 +122,7 @@ box-shadow
     border: #3079C5;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
-    /* box-shadow: 2px 2px 4px #000000; */
+    box-shadow: 2px 2px 4px #000000;
 }
 .sitename button:hover  {
     background-color: black;
@@ -299,7 +281,7 @@ section {
     /* border-color: 5px solid #3079C5; */
     padding:  5rem;
     background-color: #F1AE65;
-    border-radius: 5pxpx;
+    border-radius: 5px;
     text-align: center;
     box-shadow: 1px 1px 1px 1px #3079c5; 
 }
