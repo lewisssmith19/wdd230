@@ -8,6 +8,11 @@
 		padding: 15px;
 		padding-top: 20px;
 	}
+	#header {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 120px 50px;
+	}
 	header > img {
 		padding: 1px;
 		margin-left: 10px;
