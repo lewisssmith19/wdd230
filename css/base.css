@@ -5,6 +5,11 @@ img {
     background-color: #F1AE65;
     align-content: center;
 }
+.shoutouts ul {
+    color: #F1AE65;
+    background-color: #2594EB;
+    padding: 10px;
+} 
 img:hover {
     -webkit-transform:rotate(-7deg);
     -moz-transform:rotate(-7deg);
