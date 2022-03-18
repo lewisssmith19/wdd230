@@ -11,6 +11,17 @@ img:hover {
     -o-transform:rotate(-7deg);
     transform: rotate(-7deg);
 }
+#header h1, #header h3, #header h4, #header h2 {
+    margin: 5px;
+}
+#header .social {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+#header img {
+    margin: 0 auto;
+}
 #header {
     display: grid;
     grid-template-columns: 1fr;

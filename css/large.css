@@ -8,6 +8,12 @@
 		grid-template-columns: 1fr 3fr 1fr;
 		grid-template-rows: 75px 25px;
 	}
+	#header h1, #header h3, #header h4, #header h2 {
+		margin: 0;
+	}
+	#header nav {
+		grid-column: 2;
+	}
 	header {
 		padding-top: 50px;
 		padding-bottom: 50px;

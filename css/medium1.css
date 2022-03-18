@@ -8,6 +8,15 @@
 		padding: 15px;
 		padding-top: 20px;
 	}
+	#header h1, #header h3, #header h4, #header h2 {
+		margin: 0;
+	}
+	#header nav {
+		grid-column: 1;
+	}
+	#header .social {
+		grid-column: 2;
+	}
 	#header {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
