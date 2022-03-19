@@ -540,3 +540,26 @@ nav {
     border-radius: 5px;
     color: #F1AE65;
   }
+
+  #banner.closedBanner {
+    display: none;
+}
+  #bannerButton {
+      background-color: #F1AE65;
+      color: #000000;
+      font-family: 'Varela Round', sans-serif;
+      border-radius: 5px;
+      padding: 5px;
+  }
+  #bannerButton:hover {
+      cursor: pointer;
+      background-color: #000000;
+      color: #F1AE65;
+  }
+  #chamberbanner {
+    background-color: #3079C5;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+}

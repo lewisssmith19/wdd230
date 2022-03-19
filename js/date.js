@@ -21,3 +21,22 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 
 // To solve the mid resizing issue with responsive class on
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+function toggleBanner() {
+    document.getElementById("banner").classList.toggle("closedBanner");
+}
+const y = document.getElementById('bannerButton');
+y.onclick = toggleBanner;
+let day = now.getDay();
+function bannerCheck() {
+    switch (day) {
+        case 1:
+            break;
+        case 2:
+            break;
+        default:
+            toggleBanner();
+            break;
+    }
+}
+window.onload = bannerCheck;
