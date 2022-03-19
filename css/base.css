@@ -329,7 +329,7 @@ section {
 img:hover {
 	transform: scale(1.1);
 	animation: ease-in-out;
-    cursor: none;
+    cursor: pointer;
 } 
 .fade {
     transform: translateX(0);
