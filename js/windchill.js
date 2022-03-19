@@ -8,13 +8,13 @@ const getJSON = async url => {
     const response = await fetch(url);
     return response.json(); 
 };
-getJSON("https://api.openweathermap.org/data/2.5/weather?lat=40.45749307996542&lon=-109.52854471895078&units=imperial&lang=en&appid=7896a0abdc6f34148aad2107b8c89750")
+getJSON("https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=da06ec2c60e15d55813ec4b8ac326745")
     .then(data => displayWeather(data));
 
 function displayWeather(data) {
     let weatherString = data;
-    let weatherIcon= document.querySelector('#weatherIcon');
-    let weatherTemp= document.querySelector('#weatherTemp');
+    let weathericon= document.querySelector('#weathericon');
+    let currentTemp= document.querySelector('#currentTemp');
     let weatherCondition= document.querySelector('#weatherCondition');
     let weatherWindSpeed= document.querySelector('#weatherWindSpeed');
     let weatherWindChill= document.querySelector('#weatherWindChill');
@@ -26,8 +26,8 @@ function displayWeather(data) {
     let iconImage = new Image();
     iconImage.setAttribute('alt', 'Weather Icon showing weather conditions');
     iconImage.src = iconImageURL;
-    weatherIcon.appendChild(iconImage);
-    weatherTemp.textContent = `${weatherString.main.temp.toFixed(0)}\u00B0 F`;
+    weathericon.appendChild(iconImage);
+    currentTemp.textContent = `${weatherString.main.temp.toFixed(0)}\u00B0 F`;
     weatherCondition.textContent = weatherString.weather[0].main;
     weatherWindSpeed.textContent = `Wind Speed: ${weatherString.wind.speed.toFixed(1)} mph`;
     if ((temperature <= 50)&&(speed > 3)) {
