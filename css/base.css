@@ -512,3 +512,31 @@ nav {
     margin: 0 auto;
     max-width: 250px;
 }
+
+
+.vertical-menu {
+    width: 500px;
+    margin: 10px; 
+  }
+  
+  .vertical-menu a {
+    background-color: #2594EB; 
+    color: black; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+    margin: 1px;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: black; 
+    color: #F1AE65;
+  }
+  
+  .navigation a.active {
+    background-color: black; 
+    border-radius: 5px;
+    color: #F1AE65;
+  }
