@@ -1,1 +1,105 @@
 /*--------------Small CSS-----------------*/
+/* ---------------------------------------------------------------------------------HEADER--------------------------------------------------------------------------------- */
+#header h1, #header h3, #header h4, #header h2 {
+    margin: 5px;
+}
+#header .social {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+#header img {
+    margin: 0 auto;
+}
+#header {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+}
+.social {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
+.social > img {
+    width: 50px;
+    background-color: #F1AE65;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* ---------------------------------------------------------------------------------NAV--------------------------------------------------------------------------------- */
+nav {
+	margin: 0 auto;
+	max-width: 50px;
+	background-color: #F1AE65;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 5px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a.ham::before {
+	content: "=";
+    background-color: #3079C5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: black;
+    border-radius: 5px;
+}
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
+    background-color: #000000
+}
+.vertical-menu {
+    width: 500px;
+    margin: 10px; 
+  }
+  
+  .vertical-menu a {
+    background-color: #2594EB; 
+    color: black; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+    margin: 1px;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: black; 
+    color: #F1AE65;
+  }
+  
+  .navigation a.active {
+    background-color: black; 
+    border-radius: 5px;
+    color: #F1AE65;
+  }
