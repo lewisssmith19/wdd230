@@ -3,6 +3,7 @@
 #header h1, #header h3, #header h4, #header h2 {
     font-family: 'Varela Round', sans-serif;
     margin: 5px;
+    color: white;
 }
 #header .social {
     display: flex;
@@ -14,7 +15,7 @@
 }
 #header {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     display: flex;
     flex-direction: column;
 }
@@ -25,6 +26,7 @@
 .social {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     border-radius: 5px;
 }
 .social > img {
@@ -134,4 +136,27 @@ footer img {
 /* -------------------------------------------------------------------------------Other----------------------------------------------------------------------------------- */
 h1 h2 h3 h4 p {
     font-family: 'Varela Round', sans-serif;
+}
+#header {
+    height: 100%;
+    padding: 10px;
+    background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/corcovado_national_park-1.jpg?v=1647907644174");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 5px;
+}
+#homPage {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+#homPage {
+    height: 100%;
+    padding: 10px;
+    background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/iStock-525969927%20(3).jpg?v=1647911176910");
+    background-position: center;
+    /* background-size: cover; */
+    position: relative;
+    border-radius: 5px;
 }

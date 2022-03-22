@@ -27,7 +27,7 @@
 	header > img {
 		padding: 1px;
 		margin-left: 10px;
-		margin-top: 50px;
+		/* margin-top: 50px; */
 	}
     #header img {
         max-width: 150px;
@@ -36,7 +36,7 @@
     .social {
 		padding: 10px;
 		/* margin-right: 100px; */
-		margin-top: 50px;
+		/* margin-top: 50px; */
 	}
 
 
