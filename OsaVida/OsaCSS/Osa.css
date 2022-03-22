@@ -1,4 +1,9 @@
 /*--------------Small CSS-----------------*/
+/* colors
+Dodger blue #2C94FB
+sandy brown #F69D6E
+East Bay #3F437F
+Anakiwa #94CCFC */
 /* ---------------------------------------------------------------------------------HEADER--------------------------------------------------------------------------------- */
 #header h1, #header h3, #header h4, #header h2 {
     font-family: 'Varela Round', sans-serif;
@@ -31,15 +36,15 @@
 }
 .social > img {
     width: 50px;
-    background-color: #F1AE65;
+    background-color: #F69D6E;
     border-radius: 5px;
     padding: 5px;
 }
 /* ---------------------------------------------------------------------------------NAV--------------------------------------------------------------------------------- */
 nav {
-	margin: 0 auto;
+	/* margin: 0 auto; */
 	max-width: 50px;
-	background-color: #F1AE65;
+	background-color: #F69D6E;
     font-family: 'Varela Round', sans-serif;
     border-radius: 5px;
 }
@@ -66,23 +71,18 @@ nav {
 
 .navigation a.ham::before {
 	content: "=";
-    background-color: #3079C5;
+    background-color: #94CCFC;
     padding: 15px;
     border-radius: 5px;
 }
 
-.navigation a:hover {
-	color: white;
-	background-color: black;
-    border-radius: 5px;
-}
 .responsive li {
 	display: block;
 }
 
 .responsive a.ham::before {
 	content: "❌ ";
-    background-color: #000000
+    background-color: #3F437F
 }
 .vertical-menu {
     width: 500px;
@@ -90,7 +90,7 @@ nav {
   }
   
   .vertical-menu a {
-    background-color: #2594EB; 
+    background-color: #94CCFC; 
     color: black; 
     display: block;
     padding: 12px; 
@@ -101,20 +101,20 @@ nav {
   }
   
   .vertical-menu a:hover {
-    background-color: black; 
+    background-color: #3F437F; 
     color: #F1AE65;
   }
   
   .navigation a.active {
-    background-color: black; 
+    background-color: #2C94FB; 
     border-radius: 5px;
-    color: #F1AE65;
+    color: black;
   }
 
 
 /*---------------------------------------------------------------------------------Footer--------------------------------------------------------------------------------- */
   footer {
-    background-color: #2594EB;
+    background-color: #2C94FB;
     border-radius: 5px;
     padding: 10px;
     font-family: 'Varela Round', sans-serif;
@@ -124,7 +124,7 @@ footer h3 {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
     color: black;
-    background-color: #2594EB;
+    background-color: #2C94FB;
 }
 footer img {
     margin-top: 20px;
