@@ -2,7 +2,7 @@
 
 header {
   background-color: #2594EB;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 1.5em;
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@ header {
 }
 footer{
 	background-color: #2594EB;
-	border-radius: 15px;
+	border-radius: 5px;
 	margin-top: 25px;
   color: black;
   padding: 1em;
@@ -22,7 +22,7 @@ img {
   width: 200px;
 	height: auto;
 	padding: 1em;
-  border-radius: 300px;
+  border-radius: 5px;
 }
 a:hover {
   color: #F1AE65;
