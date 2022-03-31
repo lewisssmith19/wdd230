@@ -1,0 +1,16 @@
+h1 {
+    grid-row: 1;
+    font-size: x-large;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #2C94FB;
+    border-radius: 4px;
+}
+header img {
+    grid-row: 2;
+}
