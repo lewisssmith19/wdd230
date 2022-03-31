@@ -21,8 +21,8 @@
 	}
 	#header {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 120px 50px;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 75px 50px;
 	}
 	header > img {
 		padding: 1px;
@@ -32,6 +32,8 @@
     #header img {
         max-width: 150px;
         border-radius: 15px;
+		grid-column: 2;
+		grid-row: 2;
     }
     .social {
 		padding: 10px;

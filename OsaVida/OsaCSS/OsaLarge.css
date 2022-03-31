@@ -21,6 +21,14 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto;
     }    
+    #header {
+        background-image: url("https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/iStock-525969927%20(3).jpg?v=1647911176910");
+        min-height: 1100px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     #header img {
         max-width: 150px;
         border-radius: 15px;
@@ -60,4 +68,16 @@
 
 
     /*---------------------------------------------------------------------------------Footer--------------------------------------------------------------------------------- */
+
+    /* ----------------------------------------------Tours-------------------------------------------------- */
+    .toursGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+    }
+    .toursGrid img {
+        max-height: 500px;
+        border-radius: 2px;
+        /* box-shadow: #000000; */
+    }
 }
