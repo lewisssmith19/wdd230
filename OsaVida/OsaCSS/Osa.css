@@ -106,9 +106,9 @@ nav {
   }
   
   .navigation a.active {
-    background-color: #2C94FB; 
+    background-color: black; 
     border-radius: 5px;
-    color: black;
+    color: #F69D6E;
   }
 
 
