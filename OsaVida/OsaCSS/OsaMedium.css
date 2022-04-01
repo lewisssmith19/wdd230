@@ -117,4 +117,30 @@
 		grid-template-columns: 1fr 1fr 1fr;
 	}
  
+	/* ---------------------------------------------Tours---------------------------------------------------- */
+	.toursGrid {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 0 auto;
+	}
+	.toursGrid img {
+		max-height: 400px;
+		border-radius: 2px;
+	}
+	.toursGrid img:hover {
+		-webkit-transform:rotate(-7deg);
+		-moz-transform:rotate(-7deg);
+		-o-transform:rotate(-7deg);
+		transform: rotate(-7deg);
+	}
+	.toursGrid section {
+		background-color: #94CCFC;
+		padding: 10px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-radius: 4px;
+		text-align: center;
+	}
 }
