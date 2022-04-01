@@ -237,6 +237,12 @@ form input.submitBtn:hover {
     border-radius: 2px;
     /* box-shadow: #000000; */
 }
+.toursGrid img:hover {
+    -webkit-transform:rotate(-7deg);
+    -moz-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    transform: rotate(-7deg);
+}
 .toursGrid section {
     background-color: #2C94FB;
     padding: 10px;
