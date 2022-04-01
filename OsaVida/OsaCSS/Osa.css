@@ -245,6 +245,7 @@ form input.submitBtn:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
+    text-align: center;
 }
 /* -----------------------------------------------About--------------------------------------------------------------------- */
 .aboutUs {
