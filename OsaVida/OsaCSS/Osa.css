@@ -136,7 +136,16 @@ footer img {
     position: relative;
     overflow: hidden;
 }
-
+.stars {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.stars p {
+    margin: 0 auto;
+}
+.footerContact {
+    display: none;
+}
 /* -------------------------------------------------------------------------------Other----------------------------------------------------------------------------------- */
 h1, h2, h3, h4, p {
     font-family: 'Varela Round', sans-serif;

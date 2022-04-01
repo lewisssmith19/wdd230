@@ -99,6 +99,22 @@
 	}
 
     /*---------------------------------------------------------------------------------Footer--------------------------------------------------------------------------------- */
-
-
+	.footerContact {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footerContact p, ul {
+        grid-column: 3;
+        margin: 0 auto;
+        font-size: x-large;
+    }
+    .stars p {
+        font-size: x-large; 
+		grid-column: 1;
+    } 
+	.stars {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+ 
 }
