@@ -10,6 +10,39 @@
             "history" : "The Mesa Arizona Temple is the seventh operating temple of The Church of Jesus Christ of Latter-day Saints. Located in the city of Mesa, Arizona, it is the first of six LDS temples built or planned in the state. (Information from Wikipedia)",
             "ordinance schedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
             "closures" : "Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations), Monday, 18 July 2022 - Monday, 1 August 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022"
+        },
+        {
+            "name": "Logan Utah Temple",
+            "img" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/logan_temple_lds.jpeg?v=1649189504999",
+            "phone": "(1) 435-752-3611",
+            "address" : "175 N 300 E Logan UT 84321-4720 United States",
+            "email" : "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple?lang=eng",
+            "services" : "Clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "history" : "The Logan Utah Temple was completed in 1884, and is the fourth temple built by The Church of Jesus Christ of Latter-day Saints. (Information From Wikipedia)",
+            "ordinance schedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closures" : "Saturday, 1 October 2022 Monday, 3 October 2022 - Monday, 17 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022 (Limited Operations)"
+        },
+        {
+            "name": "San Diego California Temple",
+            "img" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/san_diego_california_temple.jpeg?v=16491898995300",
+            "phone": "(1) 858-622-0991",
+            "address" : "7474 Charmant Dr San Diego CA 92122-5000 United States",
+            "email" : "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng",
+            "services" : "Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+            "history" : "The San Diego California Temple is the 47th constructed and 45th operating temple of The Church of Jesus Christ of Latter-day Saints. Located near the La Jolla community of San Diego, it was built with two main spires, but unique to this temple are four smaller spires at the base of each main spire. (Information From Wikipedia)",
+            "ordinance schedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closures" : "Saturday, 1 October 2022 Wednesday, 23 November 2022 - Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022"
+        },
+        {
+            "name": "Laie Hawaii Temple",
+            "img" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/laie_hawaii_temple_lds.jpg?v=1649190180270",
+            "phone": "(1) 808-293-2427",
+            "address" : "55-600 Naniloa Loop Laie HI 96762-2202 United States",
+            "email" : "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
+            "services" : "Clothing rental available No cafeteria available No patron housing available Distribution center nearby", 
+            "history" : "Laie Hawaii Temple is a temple of The Church of Jesus Christ of Latter-day Saints (LDS Church) located on the northeast shore of the Hawaiian island of Oʻahu. The temple sits on a small hill, a half-mile from the Pacific Ocean, in the town of Lāʻie, 35 miles (56 km) from Honolulu. Along with Brigham Young University–Hawaii and the Polynesian Cultural Center, the Laie Hawaii Temple plays an important role in the town of Lā'ie,[4] with the Visitors' Center attracting more than 100,000 people annually. (Information from Wikipedia) ",
+            "ordinance schedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng", 
+            "closures" : "Friday, 30 September 2022 (Limited Operations) Saturday, 1 October 2022 Thursday, 24 November 2022 Friday, 23 December 2022 (Limited Operations) Saturday, 24 December 2022 - Monday, 26 December 2022"
         }
     ]
 }
