@@ -1,5 +1,5 @@
 const requestURL = 'https://lewisssmith19.github.io/wdd230/OsaVida/JS/osa.json';
-let companies = document.querySelector('.temples'); 
+let temples = document.querySelector('.temples'); 
 
 fetch(requestURL)
   .then(function (response) {
@@ -7,14 +7,14 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-    const companys = jsonObject['companies'];
-    companys.forEach(displayCompanies); 
+    const temple = jsonObject['temples'];
+    temple.forEach(displayTemples); 
   });
   
 
   
 
-  function displayCompanies(company) {
+  function displayTemples(temple) {
 
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
@@ -25,14 +25,19 @@ fetch(requestURL)
     let portrait = document.createElement('img');
   
     
-    h2.textContent = company.name;
-    address.textContent = company.address; 
-    phone.textContent = company.phone;
-    a.textContent = company.website;
+    h2.textContent = temple.name;
+    address.textContent = temple.address; 
+    phone.textContent = temple.phone;
+    email.textContent = temple.email;
+    services.textContent = temple.services;
+    history.textContent = temple.history;
+    ordinanceSchedule.textContent = temple.ordinanceSchedule;
+    closures.textContent = temple.closures;
+    a.textContent = temple.website;
     a.setAttribute('target', '_blank');
   
     
-    portrait.setAttribute('src', company.image);
+    portrait.setAttribute('src', temple.image);
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('alt', 'images');
     card.appendChild(h2);
@@ -44,6 +49,6 @@ fetch(requestURL)
    
 
   
-    companies.appendChild(card);
+    temples.appendChild(card);
 
   }
