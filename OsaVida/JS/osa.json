@@ -2,7 +2,7 @@
     "temples": [
         {
             "name": "Mesa Arizona Temple",
-            "img" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/mesa_temple_reflection.jpg?v=1649189240118",
+            "image" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/mesa_temple_reflection.jpg?v=1649189240118",
             "phone":  "(1) 480-833-1211",
             "address" : "101 S LeSueur Mesa AZ 85204-1031 United States",
             "email" : "https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple?lang=eng",
@@ -13,7 +13,7 @@
         },
         {
             "name": "Logan Utah Temple",
-            "img" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/logan_temple_lds.jpeg?v=1649189504999",
+            "image" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/logan_temple_lds.jpeg?v=1649189504999",
             "phone": "(1) 435-752-3611",
             "address" : "175 N 300 E Logan UT 84321-4720 United States",
             "email" : "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple?lang=eng",
@@ -24,7 +24,7 @@
         },
         {
             "name": "San Diego California Temple",
-            "img" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/san_diego_california_temple.jpeg?v=16491898995300",
+            "image" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/san_diego_california_temple.jpeg?v=16491898995300",
             "phone": "(1) 858-622-0991",
             "address" : "7474 Charmant Dr San Diego CA 92122-5000 United States",
             "email" : "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng",
@@ -35,7 +35,7 @@
         },
         {
             "name": "Laie Hawaii Temple",
-            "img" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/laie_hawaii_temple_lds.jpg?v=1649190180270",
+            "image" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/laie_hawaii_temple_lds.jpg?v=1649190180270",
             "phone": "(1) 808-293-2427",
             "address" : "55-600 Naniloa Loop Laie HI 96762-2202 United States",
             "email" : "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
