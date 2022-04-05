@@ -76,9 +76,7 @@
         margin: 0 auto;
     }
     .toursGrid img {
-        max-height: 500px;
         border-radius: 2px;
-        /* box-shadow: #000000; */
     }
     .footerContact {
         display: grid;

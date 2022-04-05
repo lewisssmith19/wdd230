@@ -1,0 +1,15 @@
+{
+    "temples": [
+        {
+            "name": "Mesa Arizona Temple",
+            "img" : "https://cdn.glitch.global/2f390c12-d4e1-40e0-a51f-298c860e6db7/mesa_temple_reflection.jpg?v=1649189240118",
+            "phone":  "(1) 480-833-1211",
+            "address" : "101 S LeSueur Mesa AZ 85204-1031 United States",
+            "email" : "https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple?lang=eng",
+            "services" : "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history" : "The Mesa Arizona Temple is the seventh operating temple of The Church of Jesus Christ of Latter-day Saints. Located in the city of Mesa, Arizona, it is the first of six LDS temples built or planned in the state. (Information from Wikipedia)",
+            "ordinance schedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closures" : "Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations), Monday, 18 July 2022 - Monday, 1 August 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022"
+        }
+    ]
+}
