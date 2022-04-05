@@ -27,7 +27,7 @@ fetch(requestURL)
     let ordinanceSchedule = document.createElement('ordinanceSchedule');
     let closures = document.createElement('closures');
     let a = document.createElement('a');
-    let portrait = document.createElement('img');
+    let img = document.createElement('img');
   
     
     h2.textContent = temple.name;
@@ -41,11 +41,11 @@ fetch(requestURL)
     a.setAttribute('target', '_blank');
   
     
-    portrait.setAttribute('src', temple.image);
-    portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('alt', 'images');
+    img.setAttribute('src', temple.image);
+    img.setAttribute('loading', 'lazy');
+    img.setAttribute('alt', 'images');
     card.appendChild(h2);
-    card.appendChild(portrait);
+    card.appendChild(img);
   
     card.appendChild(phone);
     card.appendChild(address);
