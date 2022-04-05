@@ -6,9 +6,9 @@
             "phone":  "(1) 480-833-1211",
             "address" : "101 S LeSueur Mesa AZ 85204-1031 United States",
             "email" : "https://www.churchofjesuschrist.org/temples/details/mesa-arizona-temple?lang=eng",
-            "services" : "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
-            "history" : "The Mesa Arizona Temple is the seventh operating temple of The Church of Jesus Christ of Latter-day Saints. Located in the city of Mesa, Arizona, it is the first of six LDS temples built or planned in the state. (Information from Wikipedia)",
-            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "services" : "Services: Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history" : "History: The Mesa Arizona Temple is the seventh operating temple of The Church of Jesus Christ of Latter-day Saints. Located in the city of Mesa, Arizona, it is the first of six LDS temples built or planned in the state. (Information from Wikipedia)",
+            "ordinanceSchedule" : "Ordinances: By Appointment Only",
             "closures" : "Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations), Monday, 18 July 2022 - Monday, 1 August 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022"
         },
         {
@@ -17,9 +17,9 @@
             "phone": "(1) 858-622-0991",
             "address" : "7474 Charmant Dr San Diego CA 92122-5000 United States",
             "email" : "https://www.churchofjesuschrist.org/temples/details/san-diego-california-temple?lang=eng",
-            "services" : "Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
-            "history" : "The San Diego California Temple is the 47th constructed and 45th operating temple of The Church of Jesus Christ of Latter-day Saints. Located near the La Jolla community of San Diego, it was built with two main spires, but unique to this temple are four smaller spires at the base of each main spire. (Information From Wikipedia)",
-            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "services" : "Services: Clothing rental available No cafeteria available No patron housing available Distribution center nearby",
+            "history" : "History: The San Diego California Temple is the 47th constructed and 45th operating temple of The Church of Jesus Christ of Latter-day Saints. Located near the La Jolla community of San Diego, it was built with two main spires, but unique to this temple are four smaller spires at the base of each main spire. (Information From Wikipedia)",
+            "ordinanceSchedule" : "Ordinances: By Appointment Only",
             "closures" : "Saturday, 1 October 2022 Wednesday, 23 November 2022 - Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022"
         },
         {
@@ -28,9 +28,9 @@
             "phone": "(1) 435-752-3611",
             "address" : "175 N 300 E Logan UT 84321-4720 United States",
             "email" : "https://www.churchofjesuschrist.org/temples/details/logan-utah-temple?lang=eng",
-            "services" : "Clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
-            "history" : "The Logan Utah Temple was completed in 1884, and is the fourth temple built by The Church of Jesus Christ of Latter-day Saints. (Information From Wikipedia)",
-            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "services" : "Services: Clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "history" : "History: The Logan Utah Temple was completed in 1884, and is the fourth temple built by The Church of Jesus Christ of Latter-day Saints. (Information From Wikipedia)",
+            "ordinanceSchedule" : "Ordinances: By Appointment Only",
             "closures" : "Saturday, 1 October 2022 Monday, 3 October 2022 - Monday, 17 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022 (Limited Operations)"
         },
         {
@@ -39,9 +39,9 @@
             "phone": "(1) 808-293-2427",
             "address" : "55-600 Naniloa Loop Laie HI 96762-2202 United States",
             "email" : "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
-            "services" : "Clothing rental available No cafeteria available No patron housing available Distribution center nearby", 
-            "history" : "Laie Hawaii Temple is a temple of The Church of Jesus Christ of Latter-day Saints (LDS Church) located on the northeast shore of the Hawaiian island of Oʻahu. A half-mile from the Pacific Ocean, in the town of Lāʻie. The Laie Hawaii Temple plays an important role in the town of Lā'ie,[4] with the Visitors' Center attracting more than 100,000 people annually. (Information from Wikipedia) ",
-            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng", 
+            "services" : "Services: Clothing rental available No cafeteria available No patron housing available Distribution center nearby", 
+            "history" : "History: Laie Hawaii Temple is a temple of The Church of Jesus Christ of Latter-day Saints (LDS Church) located on the northeast shore of the Hawaiian island of Oʻahu. A half-mile from the Pacific Ocean, in the town of Lāʻie. The Laie Hawaii Temple plays an important role in the town of Lā'ie,[4] with the Visitors' Center attracting more than 100,000 people annually. (Information from Wikipedia) ",
+            "ordinanceSchedule" : "Ordinances: By Appointment Only", 
             "closures" : "Friday, 30 September 2022 (Limited Operations) Saturday, 1 October 2022 Thursday, 24 November 2022 Friday, 23 December 2022 (Limited Operations) Saturday, 24 December 2022 - Monday, 26 December 2022"
         }
     ]
