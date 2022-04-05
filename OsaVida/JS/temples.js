@@ -46,7 +46,7 @@ fetch(requestURL)
     portrait.setAttribute('alt', 'images');
     card.appendChild(h2);
     card.appendChild(portrait);
-    card.append("Email:" + email);
+    card.append(email);
     card.append(services);
     card.append(history);
     card.append(ordinanceSchedule);
