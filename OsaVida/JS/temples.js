@@ -21,6 +21,11 @@ fetch(requestURL)
 
     let address = document.createElement('address');
     let phone = document.createElement('phone');
+    let email = document.createElement('email');
+    let services = document.createElement('services');
+    let history = document.createElement('history');
+    let ordinanceSchedule = document.createElement('ordinanceSchedule');
+    let closures = document.createElement('closures');
     let a = document.createElement('a');
     let portrait = document.createElement('img');
   
@@ -33,7 +38,6 @@ fetch(requestURL)
     history.textContent = temple.history;
     ordinanceSchedule.textContent = temple.ordinanceSchedule;
     closures.textContent = temple.closures;
-    a.textContent = temple.website;
     a.setAttribute('target', '_blank');
   
     
