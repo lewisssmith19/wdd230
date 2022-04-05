@@ -46,7 +46,11 @@ fetch(requestURL)
     img.setAttribute('alt', 'images');
     card.appendChild(h2);
     card.appendChild(img);
-  
+    card.append(email);
+    card.append(services);
+    card.append(history);
+    card.append(ordinanceSchedule);
+    card.append(closures);
     card.appendChild(phone);
     card.appendChild(address);
     card.appendChild(a);
