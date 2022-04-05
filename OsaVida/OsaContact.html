@@ -37,13 +37,20 @@
     </body>
         
     <h2>We are looking forward to hearing your feedback!</h2>
-        <form action="/wdd230/chamber/contactthankyou.html" method="get">
+        <form action="/wdd230/OsaVida/osabook.html" method="get">
+        <fieldset>
             <legend>Contact Us!</legend>
-            <label class="top">Name: <input type="text" name="Name"></label><br>
-            <label class="top"> Email: <input type="email" name="email"></label><br>
-            <label class="bottom"> Question/Concern: <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea></label><br><br>
+            <label class="top">Location: <input type="text" name="location" required></label><br>
+            <label class="top">Date: <input type="date" name="date" required></label><br>
+            <label class="top">Number of Rooms: <input type="number" required></label><br>
+            <label class="top">Full Name: <input type="text" name="Name" required></label><br>
+            <label class="top"> Email: <input type="email" name="email" required></label><br>
+            <label class="top" >Phone Number: <input class="top" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></label><br>
+                <small>Format: XXX-XXX-XXXX</small><br>
+            <label class="top">State: <input type="text" name="state" required></label>
+            <label class="bottom"> Question/Comments: <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea></label><br><br>
+            <input type="submit" value="Book!" class="submitBtn">
         </fieldset>
-        <input type="submit" value="Contact" class="submitBtn">
     </form>
     <footer>
         <div class="container_footer">

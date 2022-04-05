@@ -293,7 +293,7 @@ form label.bottom textarea {
 form input.submitBtn {
     border: none;
     background-color: #94CCFC;
-    color: #000000;
+    color: #3F437F;
     border-radius: 5px;
     padding: .75rem 1.5rem;
     font-family: 'Varela Round', sans-serif;
@@ -302,12 +302,24 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
+
 form input.submitBtn:hover {
     background-color: #3F437F;
     color: #94CCFC;
     font-size: larger;
 }
-
+form label.top input:required {
+    border-left: red solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+form label.bottom input:required {
+    border-left: red solid 6px;
+}
+form label.bottom input:required:valid {
+    border-left: green solid 6px;
+}
 /* -------------------------------Tours---------------------------------------------- */
 .toursGrid {
     display: grid;
