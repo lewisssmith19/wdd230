@@ -117,63 +117,53 @@ nav {
     padding: 5px;
     font-size: large;
     display: block;
-    color: #94CCFC;
+    color: white;
 }
 .temples address {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
     font-size: large;
     display: block;
-    color: #94CCFC;
+    color: white;
 }
 .temples closures {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
     font-size: large;
     display: block;
-    color: #94CCFC;
+    color: white;
 }
 .temples services {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
     font-size: large;
     display: block;
-    color: #94CCFC;
+    color: white;
 }
 .temples history {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
     font-size: large;
     display: block;
-    color: #94CCFC;
+    color: white;
 }
 .temples ordinanceSchedule {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
     font-size: large;
     display: block;
-    color: #94CCFC;
+    color: white;
 }
 .temples email {
     font-family: 'Varela Round', sans-serif;
     padding: 5px;
     font-size: large;
     display: block;
-    color: #94CCFC;
-}
-.temples a {
-    font-family: 'Varela Round', sans-serif;
-    padding: 5px;
-    font-size: large;
-    display: block;
+    color: white;
 }
 .temples h2 {
     color: #94CCFC;
     font-family: 'Varela Round', sans-serif;
-}
-.temples a:hover {
-    color: #3079C5;
-    cursor: pointer;
 }
 .temples img {
     width: 100%;
