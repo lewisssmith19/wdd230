@@ -7,7 +7,7 @@ fetch(apiURL)
     const caption = document.querySelector('figcaption');
 
     currentTemp.textContent = x.list[0].main.temp.toFixed(0);
-    let imgsrc = `https://openweathermap.org/img/w/${x.list[0].weather[0].icon}.png`;
+    let imgsrc = `https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}`;
     let imgalt = x.list[0].weather[0].description;
     imgalt = imgalt.split(' ').map(capitalize).join(' ');
 
