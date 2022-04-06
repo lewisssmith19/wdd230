@@ -133,7 +133,7 @@
 		margin: 0 auto;
 	}
 	.toursGrid img {
-		max-height: 400px;
+		max-height: 300px;
 		border-radius: 2px;
 	}
 	.toursGrid img:hover {

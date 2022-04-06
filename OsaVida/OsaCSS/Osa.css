@@ -328,9 +328,8 @@ form label.bottom input:required:valid {
     margin: 0 auto;
 }
 .toursGrid img {
-    max-height: 400px;
+    max-height: 200px;
     border-radius: 2px;
-    /* box-shadow: #000000; */
 }
 .toursGrid img:hover {
     -webkit-transform:rotate(-7deg);
