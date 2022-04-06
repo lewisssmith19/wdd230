@@ -1,4 +1,4 @@
-const apiURL = `https://openweathermap.org/api/one-call-api`;
+const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}`;
 fetch(apiURL)
 .then((response) => response.json())
   .then((x) => {
