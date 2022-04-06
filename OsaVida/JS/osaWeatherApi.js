@@ -26,11 +26,11 @@ function capitalize(word) {
 
 
 
-const getJSON = async url => {
+const getJSON2 = async url => {
     const response = await fetch(url);
     return response.json(); 
 };
-getJSON("https://api.openweathermap.org/data/2.5/onecall?lat=8.5609&lon=83.4644&appid=da06ec2c60e15d55813ec4b8ac326745")
+getJSON2 ("https://api.openweathermap.org/data/2.5/onecall?lat=8.5609&lon=83.4644&appid=da06ec2c60e15d55813ec4b8ac326745")
     .then(data => displayWeather(data));
 
 function displayWeather(data) {
