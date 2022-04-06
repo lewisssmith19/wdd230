@@ -4,8 +4,7 @@ fetch(apiURL2)
 .then((x) => {
 const currentTemp = document.querySelector('#currentTemp');
 const weathericon = document.querySelector('#weathericon');
-const caption = document.querySelector('figcaption');
-
+const caption = document.querySelector('figcaption'); 
 currentTemp.textContent = x.temp;
 let imgsrc = `https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={da06ec2c60e15d55813ec4b8ac326745}`;
 let imgalt = x.current.weather[0].description;
@@ -13,7 +12,6 @@ imgalt = imgalt.split(' ').map(capitalize).join(' ');
 
 weathericon.setAttribute('src', imgsrc);
 weathericon.setAttribute('alt', imgalt);
-// caption.innerHTML = imgalt;
 });
 
 function capitalize(word) {
