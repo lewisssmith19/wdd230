@@ -1,5 +1,5 @@
-const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={da06ec2c60e15d55813ec4b8ac326745}`;
-fetch(apiURL)
+const apiURL2 = `https://api.openweathermap.org/data/2.5/onecall?lat=8.5609&lon=83.4644&appid=da06ec2c60e15d55813ec4b8ac326745`;
+fetch(apiURL2)
 .then((response) => response.json())
   .then((x) => {
     const currentTemp = document.querySelector('#currentTemp');
@@ -30,7 +30,7 @@ const getJSON = async url => {
     const response = await fetch(url);
     return response.json(); 
 };
-getJSON("https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=da06ec2c60e15d55813ec4b8ac326745")
+getJSON("https://api.openweathermap.org/data/2.5/onecall?lat=8.5609&lon=83.4644&appid=da06ec2c60e15d55813ec4b8ac326745")
     .then(data => displayWeather(data));
 
 function displayWeather(data) {
