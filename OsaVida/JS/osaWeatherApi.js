@@ -20,6 +20,12 @@ function capitalize(word) {
   return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
 }
 
+
+
+
+
+
+
 const getJSON = async url => {
     const response = await fetch(url);
     return response.json(); 
@@ -38,7 +44,7 @@ function displayWeather(data) {
     let speed = weatherString.wind.speed;
     let windChill = 35.74 + (0.6215 * temperature) - (35.75 * (speed ** 0.16)) + (0.4275 * temperature * (speed ** 0.16));
     let iconValue = weatherString.weather[0].icon;
-    let iconImageURL =  `https://openweathermap.org/img/wn/${iconValue}@2x.png`;
+    let iconImageURL =  `http://openweathermap.org/img/wn/10d@2x.png`;
     let iconImage = new Image();
     iconImage.setAttribute('alt', 'Weather Icon showing weather conditions');
     iconImage.src = iconImageURL;
