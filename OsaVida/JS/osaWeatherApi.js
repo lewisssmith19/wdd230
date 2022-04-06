@@ -2,7 +2,7 @@ const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={l
 fetch(apiURL)
 .then((response) => response.json())
   .then((x) => {
-    const currentTemp = document.querySelector('#current-temp');
+    const currentTemp = document.querySelector('#currentTemp');
     const weathericon = document.querySelector('#weathericon');
     const caption = document.querySelector('figcaption');
 
