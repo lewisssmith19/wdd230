@@ -30,8 +30,7 @@ fetch(requestURL)
     phone.textContent = company.phone;
     a.textContent = company.website;
     a.setAttribute('target', '_blank');
-  
-    
+   
     portrait.setAttribute('src', company.image);
     portrait.setAttribute('loading', 'lazy');
     portrait.setAttribute('alt', 'images');
@@ -42,8 +41,6 @@ fetch(requestURL)
     card.appendChild(address);
     card.appendChild(a);
    
-
-  
     companies.appendChild(card);
 
   }
